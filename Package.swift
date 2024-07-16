@@ -1,6 +1,7 @@
 // swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -9,25 +10,18 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "test_spm",
-            targets: ["test_spm"]),
+            targets: ["test_spm"]
+        ),
     ],
-    dependencies: [],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "test_spm",
             dependencies: [],
             path: "Sources",
             resources: [
                 .copy("App.xcframework"),
-                .copy("ArkFace.xcframework"),
-                .copy("ArkNFC.xcframework"),
-//                .copy("arksigner.xcframework"),
-                .copy("ArkTCKK.xcframework"),
                 .copy("connectivity_plus.xcframework"),
                 .copy("customer_acquisition.xcframework"),
                 .copy("device_info_plus.xcframework"),
@@ -37,7 +31,6 @@ let package = Package(
                 .copy("FlutterPluginRegistrant.xcframework"),
                 .copy("image_picker_ios.xcframework"),
                 .copy("JGProgressHUD.xcframework"),
-                .copy("JitsiMeetSDK.framework"),
                 .copy("JNKKeychain.xcframework"),
                 .copy("light_weight_picker.xcframework"),
                 .copy("local_auth_darwin.xcframework"),
@@ -61,8 +54,5 @@ let package = Package(
                 .copy("webview_flutter_wkwebview.xcframework")
             ]
         ),
-        .testTarget(
-            name: "test_spmTests",
-            dependencies: ["test_spm"]),
     ]
 )
