@@ -6,6 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "test_spm",
+    defaultLocalization: "tr",
     platforms: [
         .iOS(.v13)
     ],
@@ -23,7 +24,7 @@ let package = Package(
                 "ArkFace",
                 "ArkNFC",
                 "ArkTCKK",
-                "arksigner",
+//                "arksigner",
                 "JitsiMeetSDK",
                 "WebRTC",
                 "connectivity_plus",
@@ -54,7 +55,6 @@ let package = Package(
                 "syncfusion_flutter_pdfviewer",
                 "url_launcher_ios",
                 "wakelock",
-//                "WebRTC",
                 "webview_flutter_wkwebview"
             ],
             path: "Sources",
@@ -79,10 +79,10 @@ let package = Package(
             name: "ArkTCKK",
             path: "Sources/ArkTCKK.xcframework"
         ),
-        .binaryTarget(
-            name: "arksigner",
-            path: "Sources/arksigner.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "arksigner",
+//            path: "Sources/arksigner.xcframework"
+//        ),
         .binaryTarget(
             name: "JitsiMeetSDK",
             path: "Sources/JitsiMeetSDK.xcframework"
