@@ -1,0 +1,4389 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SCLAlertView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLAlertViewStyle",
+        "printedName": "SCLAlertViewStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO7successyA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO7successyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO5erroryA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO5erroryA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "notice",
+            "printedName": "notice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO6noticeyA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO6noticeyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO7warningyA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO7warningyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO4infoyA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO4infoyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "edit",
+            "printedName": "edit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO4edityA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO4edityA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "wait",
+            "printedName": "wait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO4waityA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO4waityA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "question",
+            "printedName": "question",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertViewStyle.Type) -> SCLAlertView.SCLAlertViewStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertViewStyle",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle",
+                    "usr": "s:12SCLAlertView0aB5StyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertViewStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertViewStyle",
+                        "printedName": "SCLAlertView.SCLAlertViewStyle",
+                        "usr": "s:12SCLAlertView0aB5StyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0aB5StyleO8questionyA2CmF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO8questionyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultColorInt",
+            "printedName": "defaultColorInt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertView0aB5StyleO15defaultColorIntSuvp",
+            "mangledName": "$s12SCLAlertView0aB5StyleO15defaultColorIntSuvp",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertView0aB5StyleO15defaultColorIntSuvg",
+                "mangledName": "$s12SCLAlertView0aB5StyleO15defaultColorIntSuvg",
+                "moduleName": "SCLAlertView",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewStyle",
+                "printedName": "SCLAlertView.SCLAlertViewStyle",
+                "usr": "s:12SCLAlertView0aB5StyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewStyle",
+                "printedName": "SCLAlertView.SCLAlertViewStyle",
+                "usr": "s:12SCLAlertView0aB5StyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB5StyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12SCLAlertView0aB5StyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "SCLAlertView",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertView0aB5StyleO9hashValueSivp",
+            "mangledName": "$s12SCLAlertView0aB5StyleO9hashValueSivp",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertView0aB5StyleO9hashValueSivg",
+                "mangledName": "$s12SCLAlertView0aB5StyleO9hashValueSivg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB5StyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12SCLAlertView0aB5StyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12SCLAlertView0aB5StyleO",
+        "mangledName": "$s12SCLAlertView0aB5StyleO",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLAnimationStyle",
+        "printedName": "SCLAnimationStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noAnimation",
+            "printedName": "noAnimation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAnimationStyle.Type) -> SCLAlertView.SCLAnimationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAnimationStyle",
+                    "printedName": "SCLAlertView.SCLAnimationStyle",
+                    "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAnimationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAnimationStyle",
+                        "printedName": "SCLAlertView.SCLAnimationStyle",
+                        "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO11noAnimationyA2CmF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO11noAnimationyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "topToBottom",
+            "printedName": "topToBottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAnimationStyle.Type) -> SCLAlertView.SCLAnimationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAnimationStyle",
+                    "printedName": "SCLAlertView.SCLAnimationStyle",
+                    "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAnimationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAnimationStyle",
+                        "printedName": "SCLAlertView.SCLAnimationStyle",
+                        "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO11topToBottomyA2CmF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO11topToBottomyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomToTop",
+            "printedName": "bottomToTop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAnimationStyle.Type) -> SCLAlertView.SCLAnimationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAnimationStyle",
+                    "printedName": "SCLAlertView.SCLAnimationStyle",
+                    "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAnimationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAnimationStyle",
+                        "printedName": "SCLAlertView.SCLAnimationStyle",
+                        "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO11bottomToTopyA2CmF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO11bottomToTopyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "leftToRight",
+            "printedName": "leftToRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAnimationStyle.Type) -> SCLAlertView.SCLAnimationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAnimationStyle",
+                    "printedName": "SCLAlertView.SCLAnimationStyle",
+                    "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAnimationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAnimationStyle",
+                        "printedName": "SCLAlertView.SCLAnimationStyle",
+                        "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO11leftToRightyA2CmF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO11leftToRightyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "rightToLeft",
+            "printedName": "rightToLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAnimationStyle.Type) -> SCLAlertView.SCLAnimationStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAnimationStyle",
+                    "printedName": "SCLAlertView.SCLAnimationStyle",
+                    "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAnimationStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAnimationStyle",
+                        "printedName": "SCLAlertView.SCLAnimationStyle",
+                        "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO11rightToLeftyA2CmF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO11rightToLeftyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "SCLAlertView",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO9hashValueSivp",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO9hashValueSivp",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO9hashValueSivg",
+                "mangledName": "$s12SCLAlertView17SCLAnimationStyleO9hashValueSivg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView17SCLAnimationStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12SCLAlertView17SCLAnimationStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12SCLAlertView17SCLAnimationStyleO",
+        "mangledName": "$s12SCLAlertView17SCLAnimationStyleO",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLActionType",
+        "printedName": "SCLActionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLActionType.Type) -> SCLAlertView.SCLActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLActionType",
+                    "printedName": "SCLAlertView.SCLActionType",
+                    "usr": "s:12SCLAlertView13SCLActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLActionType",
+                        "printedName": "SCLAlertView.SCLActionType",
+                        "usr": "s:12SCLAlertView13SCLActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView13SCLActionTypeO4noneyA2CmF",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO4noneyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "selector",
+            "printedName": "selector",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLActionType.Type) -> SCLAlertView.SCLActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLActionType",
+                    "printedName": "SCLAlertView.SCLActionType",
+                    "usr": "s:12SCLAlertView13SCLActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLActionType",
+                        "printedName": "SCLAlertView.SCLActionType",
+                        "usr": "s:12SCLAlertView13SCLActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView13SCLActionTypeO8selectoryA2CmF",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO8selectoryA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "closure",
+            "printedName": "closure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLActionType.Type) -> SCLAlertView.SCLActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLActionType",
+                    "printedName": "SCLAlertView.SCLActionType",
+                    "usr": "s:12SCLAlertView13SCLActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLActionType",
+                        "printedName": "SCLAlertView.SCLActionType",
+                        "usr": "s:12SCLAlertView13SCLActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView13SCLActionTypeO7closureyA2CmF",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO7closureyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLActionType",
+                "printedName": "SCLAlertView.SCLActionType",
+                "usr": "s:12SCLAlertView13SCLActionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLActionType",
+                "printedName": "SCLAlertView.SCLActionType",
+                "usr": "s:12SCLAlertView13SCLActionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView13SCLActionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "SCLAlertView",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertView13SCLActionTypeO9hashValueSivp",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO9hashValueSivp",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertView13SCLActionTypeO9hashValueSivg",
+                "mangledName": "$s12SCLAlertView13SCLActionTypeO9hashValueSivg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView13SCLActionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12SCLAlertView13SCLActionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12SCLAlertView13SCLActionTypeO",
+        "mangledName": "$s12SCLAlertView13SCLActionTypeO",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLAlertButtonLayout",
+        "printedName": "SCLAlertButtonLayout",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "horizontal",
+            "printedName": "horizontal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertButtonLayout.Type) -> SCLAlertView.SCLAlertButtonLayout",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertButtonLayout",
+                    "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                    "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertButtonLayout.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertButtonLayout",
+                        "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                        "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0A12ButtonLayoutO10horizontalyA2CmF",
+            "mangledName": "$s12SCLAlertView0A12ButtonLayoutO10horizontalyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Var",
+            "name": "vertical",
+            "printedName": "vertical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SCLAlertView.SCLAlertButtonLayout.Type) -> SCLAlertView.SCLAlertButtonLayout",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertButtonLayout",
+                    "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                    "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SCLAlertView.SCLAlertButtonLayout.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCLAlertButtonLayout",
+                        "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                        "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12SCLAlertView0A12ButtonLayoutO8verticalyA2CmF",
+            "mangledName": "$s12SCLAlertView0A12ButtonLayoutO8verticalyA2CmF",
+            "moduleName": "SCLAlertView"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertButtonLayout",
+                "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertButtonLayout",
+                "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0A12ButtonLayoutO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12SCLAlertView0A12ButtonLayoutO2eeoiySbAC_ACtFZ",
+            "moduleName": "SCLAlertView",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertView0A12ButtonLayoutO9hashValueSivp",
+            "mangledName": "$s12SCLAlertView0A12ButtonLayoutO9hashValueSivp",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertView0A12ButtonLayoutO9hashValueSivg",
+                "mangledName": "$s12SCLAlertView0A12ButtonLayoutO9hashValueSivg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0A12ButtonLayoutO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12SCLAlertView0A12ButtonLayoutO4hash4intoys6HasherVz_tF",
+            "moduleName": "SCLAlertView",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12SCLAlertView0A12ButtonLayoutO",
+        "mangledName": "$s12SCLAlertView0A12ButtonLayoutO",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLButton",
+        "printedName": "SCLButton",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ShowTimeoutConfiguration",
+            "printedName": "ShowTimeoutConfiguration",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(prefix:suffix:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShowTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLButton.ShowTimeoutConfiguration",
+                    "usr": "s:12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV6prefix6suffixAESS_SStcfc",
+                "mangledName": "$s12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV6prefix6suffixAESS_SStcfc",
+                "moduleName": "SCLAlertView",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV",
+            "mangledName": "$s12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLButton",
+                "printedName": "SCLAlertView.SCLButton",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLButton"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLButton(im)init",
+            "mangledName": "$s12SCLAlertView9SCLButtonCACycfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLButton",
+                    "printedName": "SCLAlertView.SCLButton",
+                    "usr": "c:@M@SCLAlertView@objc(cs)SCLButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLButton(im)initWithCoder:",
+            "mangledName": "$s12SCLAlertView9SCLButtonC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLButton",
+                "printedName": "SCLAlertView.SCLButton",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLButton(im)initWithFrame:",
+            "mangledName": "$s12SCLAlertView9SCLButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SCLAlertView@objc(cs)SCLButton",
+        "mangledName": "$s12SCLAlertView9SCLButtonC",
+        "moduleName": "SCLAlertView",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLAlertViewResponder",
+        "printedName": "SCLAlertViewResponder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(alertview:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertView",
+                "printedName": "SCLAlertView.SCLAlertView",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SCLAlertView0aB9ResponderC9alertviewAc2AC_tcfc",
+            "mangledName": "$s12SCLAlertView0aB9ResponderC9alertviewAc2AC_tcfc",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setTitle",
+            "printedName": "setTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB9ResponderC8setTitleyySSF",
+            "mangledName": "$s12SCLAlertView0aB9ResponderC8setTitleyySSF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSubTitle",
+            "printedName": "setSubTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB9ResponderC11setSubTitleyySSF",
+            "mangledName": "$s12SCLAlertView0aB9ResponderC11setSubTitleyySSF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB9ResponderC5closeyyF",
+            "mangledName": "$s12SCLAlertView0aB9ResponderC5closeyyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDismissBlock",
+            "printedName": "setDismissBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertView0aB9ResponderC15setDismissBlockyyyycF",
+            "mangledName": "$s12SCLAlertView0aB9ResponderC15setDismissBlockyyyycF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12SCLAlertView0aB9ResponderC",
+        "mangledName": "$s12SCLAlertView0aB9ResponderC",
+        "moduleName": "SCLAlertView",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SCLAlertView",
+        "printedName": "SCLAlertView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "SCLAppearance",
+            "printedName": "SCLAppearance",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(kDefaultShadowOpacity:kCircleTopPosition:kCircleBackgroundTopPosition:kCircleHeight:kCircleIconHeight:kTitleTop:kTitleHeight:kWindowWidth:kWindowHeight:kTextHeight:kTextFieldHeight:kTextViewdHeight:kButtonHeight:kTitleFont:kTitleMinimumScaleFactor:kTextFont:kButtonFont:showCloseButton:showCircularIcon:shouldAutoDismiss:contentViewCornerRadius:fieldCornerRadius:buttonCornerRadius:hideWhenBackgroundViewIsTapped:circleBackgroundColor:contentViewColor:contentViewBorderColor:titleColor:dynamicAnimatorActive:disableTapGesture:buttonsLayout:activityIndicatorStyle:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAppearance",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLAppearance",
+                    "usr": "s:12SCLAlertViewAAC13SCLAppearanceV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIFont"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIFont"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIFont"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "hasDefaultArg": true,
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIColor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIColor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIColor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)UIColor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertButtonLayout",
+                    "printedName": "SCLAlertView.SCLAlertButtonLayout",
+                    "hasDefaultArg": true,
+                    "usr": "s:12SCLAlertView0A12ButtonLayoutO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Style",
+                    "printedName": "UIKit.UIActivityIndicatorView.Style",
+                    "hasDefaultArg": true,
+                    "usr": "c:@E@UIActivityIndicatorViewStyle"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SCLAlertViewAAC13SCLAppearanceV21kDefaultShadowOpacity18kCircleTopPosition01kg10BackgroundhI001kG6Height01kg4IconK006kTitleH001kmK012kWindowWidth01knK005kTextK001kp5FieldK001kp5ViewdK007kButtonK001kM4Font01kM18MinimumScaleFactor01kpT001ksT009showCloseS00x8CircularL017shouldAutoDismiss07contentB12CornerRadius17fieldCornerRadius18buttonCornerRadius08hideWhenjB8IsTapped06circleJ5Color07contentB5Color07contentB11BorderColor10titleColor21dynamicAnimatorActive17disableTapGesture13buttonsLayout22activityIndicatorStyleAD14CoreFoundation7CGFloatV_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_So6UIFontCA11_A13_A13_S3bA11_A11_A11_SbSo7UIColorCA15_A15_A15_S2bAA0aS6LayoutOSo019UIActivityIndicatorB5StyleVtcfc",
+                "mangledName": "$s12SCLAlertViewAAC13SCLAppearanceV21kDefaultShadowOpacity18kCircleTopPosition01kg10BackgroundhI001kG6Height01kg4IconK006kTitleH001kmK012kWindowWidth01knK005kTextK001kp5FieldK001kp5ViewdK007kButtonK001kM4Font01kM18MinimumScaleFactor01kpT001ksT009showCloseS00x8CircularL017shouldAutoDismiss07contentB12CornerRadius17fieldCornerRadius18buttonCornerRadius08hideWhenjB8IsTapped06circleJ5Color07contentB5Color07contentB11BorderColor10titleColor21dynamicAnimatorActive17disableTapGesture13buttonsLayout22activityIndicatorStyleAD12CoreGraphics7CGFloatV_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_A11_So6UIFontCA11_A13_A13_S3bA11_A11_A11_SbSo7UIColorCA15_A15_A15_S2bAA0aS6LayoutOSo019UIActivityIndicatorB5StyleVtcfc",
+                "moduleName": "SCLAlertView",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12SCLAlertViewAAC13SCLAppearanceV",
+            "mangledName": "$s12SCLAlertViewAAC13SCLAppearanceV",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SCLTimeoutConfiguration",
+            "printedName": "SCLTimeoutConfiguration",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(timeoutValue:timeoutAction:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV12timeoutValue0E6ActionADSd_yyctcfc",
+                "mangledName": "$s12SCLAlertViewAAC23SCLTimeoutConfigurationV12timeoutValue0E6ActionADSd_yyctcfc",
+                "moduleName": "SCLAlertView",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV",
+            "mangledName": "$s12SCLAlertViewAAC23SCLTimeoutConfigurationV",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconTintColor",
+            "printedName": "iconTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvp",
+            "mangledName": "$s12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvp",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvg",
+                "mangledName": "$s12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvs",
+                "mangledName": "$s12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvs",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvM",
+                "mangledName": "$s12SCLAlertViewAAC13iconTintColorSo7UIColorCSgvM",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customSubview",
+            "printedName": "customSubview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12SCLAlertViewAAC13customSubviewSo6UIViewCSgvp",
+            "mangledName": "$s12SCLAlertViewAAC13customSubviewSo6UIViewCSgvp",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13customSubviewSo6UIViewCSgvg",
+                "mangledName": "$s12SCLAlertViewAAC13customSubviewSo6UIViewCSgvg",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13customSubviewSo6UIViewCSgvs",
+                "mangledName": "$s12SCLAlertViewAAC13customSubviewSo6UIViewCSgvs",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12SCLAlertViewAAC13customSubviewSo6UIViewCSgvM",
+                "mangledName": "$s12SCLAlertViewAAC13customSubviewSo6UIViewCSgvM",
+                "moduleName": "SCLAlertView",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertView",
+                "printedName": "SCLAlertView.SCLAlertView",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAppearance",
+                "printedName": "SCLAlertView.SCLAlertView.SCLAppearance",
+                "usr": "s:12SCLAlertViewAAC13SCLAppearanceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SCLAlertViewAAC10appearanceA2B13SCLAppearanceV_tcfc",
+            "mangledName": "$s12SCLAlertViewAAC10appearanceA2B13SCLAppearanceV_tcfc",
+            "moduleName": "SCLAlertView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLAlertView",
+                    "printedName": "SCLAlertView.SCLAlertView",
+                    "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)initWithCoder:",
+            "mangledName": "$s12SCLAlertViewAAC5coderABSgSo7NSCoderC_tcfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertView",
+                "printedName": "SCLAlertView.SCLAlertView",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)init",
+            "mangledName": "$s12SCLAlertViewAACABycfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertView",
+                "printedName": "SCLAlertView.SCLAlertView",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)initWithNibName:bundle:",
+            "mangledName": "$s12SCLAlertViewAAC7nibName6bundleABSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillLayoutSubviews",
+            "printedName": "viewWillLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)viewWillLayoutSubviews",
+            "mangledName": "$s12SCLAlertViewAAC22viewWillLayoutSubviewsyyF",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)viewDidAppear:",
+            "mangledName": "$s12SCLAlertViewAAC13viewDidAppearyySbF",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)viewDidDisappear:",
+            "mangledName": "$s12SCLAlertViewAAC16viewDidDisappearyySbF",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesEnded",
+            "printedName": "touchesEnded(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)touchesEnded:withEvent:",
+            "mangledName": "$s12SCLAlertViewAAC12touchesEnded_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "SCLAlertView",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesEnded:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addTextField",
+            "printedName": "addTextField(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC12addTextFieldySo06UITextE0CSSSgF",
+            "mangledName": "$s12SCLAlertViewAAC12addTextFieldySo06UITextE0CSSSgF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addTextView",
+            "printedName": "addTextView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextView",
+                "printedName": "UIKit.UITextView",
+                "usr": "c:objc(cs)UITextView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC07addTextB0So06UITextB0CyF",
+            "mangledName": "$s12SCLAlertViewAAC07addTextB0So06UITextB0CyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addButton",
+            "printedName": "addButton(_:backgroundColor:textColor:showTimeout:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLButton",
+                "printedName": "SCLAlertView.SCLButton",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLButton.ShowTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShowTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLButton.ShowTimeoutConfiguration",
+                    "usr": "s:12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9addButton_15backgroundColor04textF011showTimeout6actionAA9SCLButtonCSS_So7UIColorCSgAlI04ShowI13ConfigurationVSgyyctF",
+            "mangledName": "$s12SCLAlertViewAAC9addButton_15backgroundColor04textF011showTimeout6actionAA9SCLButtonCSS_So7UIColorCSgAlI04ShowI13ConfigurationVSgyyctF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addButton",
+            "printedName": "addButton(_:backgroundColor:textColor:showTimeout:target:selector:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLButton",
+                "printedName": "SCLAlertView.SCLButton",
+                "usr": "c:@M@SCLAlertView@objc(cs)SCLButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLButton.ShowTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShowTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLButton.ShowTimeoutConfiguration",
+                    "usr": "s:12SCLAlertView9SCLButtonC24ShowTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9addButton_15backgroundColor04textF011showTimeout6target8selectorAA9SCLButtonCSS_So7UIColorCSgAmJ04ShowI13ConfigurationVSgyXl10ObjectiveC8SelectorVtF",
+            "mangledName": "$s12SCLAlertViewAAC9addButton_15backgroundColor04textF011showTimeout6target8selectorAA9SCLButtonCSS_So7UIColorCSgAmJ04ShowI13ConfigurationVSgyXl10ObjectiveC8SelectorVtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showCustom",
+            "printedName": "showCustom(_:subTitle:color:icon:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC10showCustom_8subTitle5color4icon011closeButtonF07timeout0G5Style0g4TextJ015circleIconImage09animationL0AA0aB9ResponderCSS_SSSo7UIColorCSo7UIImageCSSSgAB23SCLTimeoutConfigurationVSgS2uARSgAA012SCLAnimationL0OtF",
+            "mangledName": "$s12SCLAlertViewAAC10showCustom_8subTitle5color4icon011closeButtonF07timeout0G5Style0g4TextJ015circleIconImage09animationL0AA0aB9ResponderCSS_SSSo7UIColorCSo7UIImageCSSSgAB23SCLTimeoutConfigurationVSgS2uARSgAA012SCLAnimationL0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSuccess",
+            "printedName": "showSuccess(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC11showSuccess_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC11showSuccess_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showError",
+            "printedName": "showError(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9showError_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC9showError_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showNotice",
+            "printedName": "showNotice(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC10showNotice_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC10showNotice_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWarning",
+            "printedName": "showWarning(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC11showWarning_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC11showWarning_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInfo",
+            "printedName": "showInfo(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC8showInfo_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC8showInfo_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWait",
+            "printedName": "showWait(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC8showWait_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgSuSgSuSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC8showWait_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgSuSgSuSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showEdit",
+            "printedName": "showEdit(_:subTitle:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC8showEdit_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC8showEdit_8subTitle011closeButtonF07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_S2SSgAB23SCLTimeoutConfigurationVSgS2uSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTitle",
+            "printedName": "showTitle(_:subTitle:style:closeButtonTitle:timeout:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewStyle",
+                "printedName": "SCLAlertView.SCLAlertViewStyle",
+                "usr": "s:12SCLAlertView0aB5StyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9showTitle_03subD05style011closeButtonD07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_SSAA0abK0OSSSgAB23SCLTimeoutConfigurationVSgSuSgSuSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC9showTitle_03subD05style011closeButtonD07timeout10colorStyle0j4TextH015circleIconImage09animationK0AA0aB9ResponderCSS_SSAA0abK0OSSSgAB23SCLTimeoutConfigurationVSgSuSgSuSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTitle",
+            "printedName": "showTitle(_:subTitle:timeout:completeText:style:colorStyle:colorTextButton:circleIconImage:animationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewResponder",
+                "printedName": "SCLAlertView.SCLAlertViewResponder",
+                "usr": "s:12SCLAlertView0aB9ResponderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCLTimeoutConfiguration",
+                    "printedName": "SCLAlertView.SCLAlertView.SCLTimeoutConfiguration",
+                    "usr": "s:12SCLAlertViewAAC23SCLTimeoutConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAlertViewStyle",
+                "printedName": "SCLAlertView.SCLAlertViewStyle",
+                "usr": "s:12SCLAlertView0aB5StyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCLAnimationStyle",
+                "printedName": "SCLAlertView.SCLAnimationStyle",
+                "hasDefaultArg": true,
+                "usr": "s:12SCLAlertView17SCLAnimationStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9showTitle_03subD07timeout12completeText5style10colorStyle0jH6Button15circleIconImage09animationK0AA0aB9ResponderCSS_SSAB23SCLTimeoutConfigurationVSgSSSgAA0abK0OSuSgATSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "mangledName": "$s12SCLAlertViewAAC9showTitle_03subD07timeout12completeText5style10colorStyle0jH6Button15circleIconImage09animationK0AA0aB9ResponderCSS_SSAB23SCLTimeoutConfigurationVSgSSSgAA0abK0OSuSgATSo7UIImageCSgAA012SCLAnimationK0OtF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateShowTimeout",
+            "printedName": "updateShowTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)updateShowTimeout",
+            "mangledName": "$s12SCLAlertViewAAC17updateShowTimeoutyyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideView",
+            "printedName": "hideView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)hideView",
+            "mangledName": "$s12SCLAlertViewAAC04hideB0yyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideViewTimeout",
+            "printedName": "hideViewTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView(im)hideViewTimeout",
+            "mangledName": "$s12SCLAlertViewAAC04hideB7TimeoutyyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isShowing",
+            "printedName": "isShowing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SCLAlertViewAAC9isShowingSbyF",
+            "mangledName": "$s12SCLAlertViewAAC9isShowingSbyF",
+            "moduleName": "SCLAlertView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SCLAlertView@objc(cs)SCLAlertView",
+        "mangledName": "$s12SCLAlertViewAAC",
+        "moduleName": "SCLAlertView",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "UIColorFromRGB",
+        "printedName": "UIColorFromRGB(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UIColor",
+            "printedName": "UIKit.UIColor",
+            "usr": "c:objc(cs)UIColor"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "usr": "s:Su"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12SCLAlertView14UIColorFromRGBySo0C0CSuF",
+        "mangledName": "$s12SCLAlertView14UIColorFromRGBySo0C0CSuF",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SCLAlertView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 1906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3082,
+      "length": 4,
+      "value": "62.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 3190,
+      "length": 14,
+      "value": "\"SCLAlertView\""
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4844,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4879,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4924,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4954,
+      "length": 4,
+      "value": "56.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4989,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5015,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5044,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5075,
+      "length": 5,
+      "value": "240.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5107,
+      "length": 5,
+      "value": "178.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5137,
+      "length": 4,
+      "value": "90.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5171,
+      "length": 4,
+      "value": "45.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5205,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5236,
+      "length": 4,
+      "value": "45.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5289,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5330,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5381,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5438,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5571,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5605,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5640,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5782,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5842,
+      "length": 8,
+      "value": "0xCCCCCC"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5890,
+      "length": 8,
+      "value": "0x4D4D4D"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9019,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26498,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27565,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28208,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28852,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29500,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30140,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30778,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31376,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31987,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32019,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32637,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32670,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 38823,
+      "length": 6,
+      "value": "-400.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 38866,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 38906,
+      "length": 3,
+      "value": "0.2"
+    }
+  ]
+}

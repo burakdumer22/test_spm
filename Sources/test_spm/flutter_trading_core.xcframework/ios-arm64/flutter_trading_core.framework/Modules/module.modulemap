@@ -1,0 +1,11 @@
+framework module flutter_trading_core {
+  umbrella header "flutter_trading_core-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_trading_core.Swift {
+  header "flutter_trading_core-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module mobile_device_identifier {
+  umbrella header "mobile_device_identifier-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module mobile_device_identifier.Swift {
+  header "mobile_device_identifier-Swift.h"
+  requires objc
+}
