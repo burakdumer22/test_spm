@@ -1,0 +1,11 @@
+framework module ArkNFC {
+  umbrella header "ArkNFC.h"
+
+  export *
+  module * { export * }
+}
+
+module ArkNFC.Swift {
+  header "ArkNFC-Swift.h"
+  requires objc
+}

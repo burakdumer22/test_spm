@@ -20,6 +20,12 @@ let package = Package(
             name: "test_spm",
             dependencies: [
                 "App",
+                "ArkFace",
+                "ArkNFC",
+                "ArkTCKK",
+                "arksigner",
+                "JitsiMeetSDK",
+                "WebRTC",
                 "connectivity_plus",
                 "customer_acquisition",
                 "device_info_plus",
@@ -61,6 +67,30 @@ let package = Package(
 //            name: "JNKKeychain",
 //            path: "Sources/JNKKeychain.xcframework"
 //        ),
+        .binaryTarget(
+            name: "ArkFace",
+            path: "Sources/ArkFace.xcframework"
+        ),
+        .binaryTarget(
+            name: "ArkNFC",
+            path: "Sources/ArkNFC.xcframework"
+        ),
+        .binaryTarget(
+            name: "ArkTCKK",
+            path: "Sources/ArkTCKK.xcframework"
+        ),
+        .binaryTarget(
+            name: "arksigner",
+            path: "Sources/arksigner.xcframework"
+        ),
+        .binaryTarget(
+            name: "JitsiMeetSDK",
+            path: "Sources/JitsiMeetSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebRTC",
+            path: "Sources/WebRTC.xcframework"
+        ),
         .binaryTarget(
             name: "App",
             path: "Sources/App.xcframework"

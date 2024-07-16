@@ -1,0 +1,11 @@
+framework module ArkTCKK {
+  umbrella header "ArkTCKK.h"
+  export *
+
+  module * { export * }
+}
+
+module ArkTCKK.Swift {
+  header "ArkTCKK-Swift.h"
+  requires objc
+}

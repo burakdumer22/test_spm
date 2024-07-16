@@ -1,0 +1,364 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ArkFace
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+@_exported import ArkFace
+import CoreML
+import Foundation
+import ImageIO
+import Swift
+import UIKit
+import Vision
+import VisionKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol ArkTckkUiFaceCaptureDelegate {
+  @objc func onFaceCaptureTimeout()
+  @objc func onFaceCaptureFailed(statusCode: Swift.Int)
+  @objc func onFaceCapturedSuccessfully()
+  @objc func onFaceCaptureNewMessage(message: Swift.String)
+  @objc func onFaceCaptureWrongFace()
+  @objc func onFaceCaptureWarning(message: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArkSegmentedProgressBar : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var gradients: [UIKit.UIColor] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var lineHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var lineDashPattern: [Foundation.NSNumber] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var progress: Swift.Double {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var margin: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LiveAuthLog : ObjectiveC.NSObject {
+  public static func logInfo(_ msg: Swift.String?, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  public static func logError(_ msg: Swift.String?, _ error: any Swift.Error, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ArkSelfieCameraHelperError : ObjectiveC.NSObject {
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkSelfieCameraHelperDelegate {
+  func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  func onError(statusCode: Swift.Int)
+}
+public protocol ArkSelfieCameraDelegate {
+  func onTimeOut()
+  func onTextRecognitionFailed()
+  func onTextRecognizedSuccess(lines: [Swift.String], frame: CoreGraphics.CGImage)
+  func onCameraError(statusCode: Swift.Int)
+}
+@_inheritsConvenienceInitializers @objc public class FaceErrorCodes : ObjectiveC.NSObject {
+  @objc public static let UNKNOWN: Swift.Int
+  @objc public static let MULTIPLE_FACES_DETECTED_LIVENESS_MODE: Swift.Int
+  @objc public static let DETECTED_FACE_LOST_LIVENESS_MODE: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_FRONT_CAMERA_FEAUTRE: Swift.Int
+  @objc public static let LOW_BRIGHTNESS: Swift.Int
+  @objc public static let CAMERA_PERMISSIONS_PERMAMENTLY_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSIONS_DENIED: Swift.Int
+  @objc public static let TIMEOUT_MILLISECONDS_OUT_OF_RANGE: Swift.Int
+  @objc public static let LIVENESS_MODE_OUT_OF_RANGE: Swift.Int
+  @objc public static let MINIMUM_BRIGHTNESS_OUT_OF_RANGE: Swift.Int
+  @objc public static let MINIMUM_EYES_OPEN_PROBABILITY_OUT_OF_RANGE: Swift.Int
+  @objc public static let FACE_QUALITY_PARAM_OUT_OF_INDEX: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let LIVENESS_CHECK_FAILED: Swift.Int
+  @objc public static let EYES_CLOSED: Swift.Int
+  @objc public static let LOW_QUALITY: Swift.Int
+  @objc public static let FACE_BLOCKED: Swift.Int
+  @objc public static let WRONG_LIVENESS_ACTION: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FaceErrorCodesHelper : ObjectiveC.NSObject {
+  @objc public static func toString(val: Swift.Int) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ArkTckkBackCameraHelperError : ObjectiveC.NSObject {
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkTckkBackCameraHelperDelegate {
+  func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  func onError(statusCode: Swift.Int)
+}
+public enum LivenessCheckAction : Swift.CaseIterable {
+  case moveHeadLeft
+  case moveHeadRight
+  case center
+  public static func == (a: ArkFace.LivenessCheckAction, b: ArkFace.LivenessCheckAction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [ArkFace.LivenessCheckAction]
+  public static var allCases: [ArkFace.LivenessCheckAction] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ArkFace.LivenessCheckAction {
+  public func getTargetAngle() -> CoreFoundation.CGFloat
+}
+extension ArkFace.LivenessCheckAction {
+  public func getImage() -> UIKit.UIImage?
+  public func getImageName() -> Swift.String?
+  public func getContentMode() -> UIKit.UIView.ContentMode
+}
+@_hasMissingDesignatedInitializers public class LivenessHelper {
+  public func getRandomLivenessAction(livenessEnableEyeDetection: Swift.Bool) -> ArkFace.LivenessCheckAction?
+  public func populateLivenssCheckList(_ livenessCount: Swift.Int, _ livenessEnableEyeDetection: Swift.Bool, _ selfieStepCount: Swift.Int, _ faceCaptureType: ArkFace.FaceCaptureType) -> [ArkFace.LivenessCheckAction]
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArkBlurView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc public protocol FaceDetectionHelperDelegate {
+  @objc func onFaceDetected(results: [Vision.VNFaceObservation])
+  @objc func onFaceDetecitionContinue()
+}
+@_inheritsConvenienceInitializers @objc public class FaceDetectionHelper : ObjectiveC.NSObject {
+  public var delegate: (any ArkFace.FaceDetectionHelperDelegate)?
+  @objc public func detectFaces(imageBuffer: CoreVideo.CVImageBuffer)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum LivenessActionResult {
+  case notDone
+  case done
+  case wrongAction
+  public static func == (a: ArkFace.LivenessActionResult, b: ArkFace.LivenessActionResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+public class LivenessChecker {
+  public func handleLeftLivenessCheck(_ appleFace: Vision.VNFaceObservation, _ livenessAction: ArkFace.LivenessCheckAction?) -> ArkFace.LivenessActionResult
+  public func handleRightLivenessCheck(_ appleFace: Vision.VNFaceObservation, _ livenessAction: ArkFace.LivenessCheckAction?) -> ArkFace.LivenessActionResult
+  public func handleCenterLivenessCheck(_ appleFace: Vision.VNFaceObservation, _ livenessAction: ArkFace.LivenessCheckAction?) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class MrzErrorCodes : ObjectiveC.NSObject {
+  @objc public static let MRZ_PARSE_FAILED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let USER_IS_UNDER_AGE: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class MrzErrorCodesHelper : ObjectiveC.NSObject {
+  @objc public static func toString(val: Swift.Int) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIImage {
+  public class func ArkGifLoader(_ name: Swift.String) -> UIKit.UIImage?
+}
+extension CoreVideo.CVBuffer {
+  public func pixeltoGGImg() -> CoreGraphics.CGImage
+}
+@objc public enum FaceCaptureType : Swift.Int {
+  case withLivenessCheck = 0
+  case selfieOnly = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@IBDesignable @objc @_Concurrency.MainActor(unsafe) public class ArkTckkUiFaceCapture : UIKit.UIView, ArkFace.ArkSelfieCameraHelperDelegate {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any ArkFace.ArkTckkUiFaceCaptureDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var timeoutDurationInMilliseconds: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var livenessCheckPhotoInteralInMiliseconds: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var photoQualityThreshold: Swift.Float
+  @objc @_Concurrency.MainActor(unsafe) public var jpegQuality: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var eyeOpenProbability: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var useEyeDetection: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var imageBrigthnessThreshold: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var showWarnings: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var livenessAnimShowDelay: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var livenessAnimHideDelay: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var cameraPreset: AVFoundation.AVCaptureSession.Preset
+  @objc @_Concurrency.MainActor(unsafe) public var useFullScreen: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var ovalCutoutRatio: CoreFoundation.CGFloat
+  @available(*, deprecated, message: "Use photoCount property instead")
+  @objc @_Concurrency.MainActor(unsafe) public var livenessImgCount: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var photoCount: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var maxNumberOfNoFaceFrameCount: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var livenessHeadRightMsg: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var livenessHeadLefttMsg: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var livenessHeadCenterMsg: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var warningMessageTooDark: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var warningMessageFaceCount: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var warningMessageFaceQuality: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var warningMessageStayStill: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var livenessActionCount: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var selfieStepCount: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var livenessEnableEyeDetection: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var faceCaptureMode: ArkFace.FaceCaptureType
+  @objc @_Concurrency.MainActor(unsafe) public var infoLabel: UIKit.UILabel?
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var cutoutBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var cutoutOpacity: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public var livenessImgAlpha: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var showProgress: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var circularRatio: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var circularProgressBarLineHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var progressBarGradient: [UIKit.UIColor] {
+    @objc get
+    @objc set
+  }
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) public var progressBarLineDashPattern: [Foundation.NSNumber] {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var qualityHelper: ArkFace.FaceQualityHelper {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc @_Concurrency.MainActor(unsafe) public func startPreview()
+  @objc @_Concurrency.MainActor(unsafe) public func start()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension ArkFace.ArkTckkUiFaceCapture {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func getPhotoSequence() -> [UIKit.UIImage]
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func getPhotoSequenceBase64() -> [Swift.String]
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func getCompressedPhotoSequence() -> [Foundation.Data]
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func getCompressedPhotoSequenceBase64() -> [Swift.String]
+}
+@available(iOS 13.0, *)
+extension ArkFace.ArkTckkUiFaceCapture {
+  @_Concurrency.MainActor(unsafe) public func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) public func onError(statusCode: Swift.Int)
+}
+@available(iOS 13.0, *)
+extension ArkFace.ArkTckkUiFaceCapture : ArkFace.FaceDetectionHelperDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onFaceDetected(results: [Vision.VNFaceObservation])
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onFaceDetecitionContinue()
+}
+@available(iOS 13.0, *)
+extension ArkFace.ArkTckkUiFaceCapture {
+  @_Concurrency.MainActor(unsafe) public func checkPhotoQuality(_ photo: UIKit.UIImage) -> Swift.Bool
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class FaceQualityHelper : ObjectiveC.NSObject {
+  public func convertCIImageToCGImage(inputImage: CoreImage.CIImage) -> CoreGraphics.CGImage!
+  public func getFaceRecognitionQuality(_ p: UIKit.UIImage) -> Swift.Float
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.String {
+  public func fixNonNumricCharsforPsp() -> Swift.String
+  public func fixFirstLineFirstCharforPassport() -> Swift.String
+  public func fixLastLineByPaddingforPassport() -> Swift.String
+  public func fixForAllowedCharacters() -> Swift.String
+  public func fixNameLineNumbers() -> Swift.String
+  public func removeSpaces() -> Swift.String
+  public func fixNonNumricChars() -> Swift.String
+  public func fixNonAllowedChars() -> Swift.String
+  public func fixLastLineByPadding() -> Swift.String
+  public func fixFirstLineFirstChar() -> Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArkFaceOvalCutOut : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var gradients: [UIKit.UIColor] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var lineHeight: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var lineDashPattern: [Foundation.NSNumber] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var cutoutBackgroundColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var cutoutOpacity: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var cutoutRatio: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var margin: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension ArkFace.LivenessCheckAction : Swift.Equatable {}
+extension ArkFace.LivenessCheckAction : Swift.Hashable {}
+extension ArkFace.LivenessActionResult : Swift.Equatable {}
+extension ArkFace.LivenessActionResult : Swift.Hashable {}
+extension ArkFace.FaceCaptureType : Swift.Equatable {}
+extension ArkFace.FaceCaptureType : Swift.Hashable {}
+extension ArkFace.FaceCaptureType : Swift.RawRepresentable {}
