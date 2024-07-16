@@ -51,8 +51,16 @@ let package = Package(
 //                "WebRTC",
                 "webview_flutter_wkwebview"
             ],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .copy("JNKKeychain.xcframework"),
+            ]
+
         ),
+//        .binaryTarget(
+//            name: "JNKKeychain",
+//            path: "Sources/JNKKeychain.xcframework"
+//        ),
         .binaryTarget(
             name: "App",
             path: "Sources/App.xcframework"
@@ -93,10 +101,6 @@ let package = Package(
             name: "JGProgressHUD",
             path: "Sources/JGProgressHUD.xcframework"
         ),
-//        .binaryTarget(
-//            name: "JNKKeychain",
-//            path: "Sources/JNKKeychain.xcframework"
-//        ),
         .binaryTarget(
             name: "light_weight_picker",
             path: "Sources/light_weight_picker.xcframework"
@@ -133,10 +137,6 @@ let package = Package(
             name: "px_error_management",
             path: "Sources/px_error_management.xcframework"
         ),
-//        .binaryTarget(
-//            name: "px_form_generator",
-//            path: "Sources/px_form_generator.xcframework"
-//        ),
         .binaryTarget(
             name: "px_widgets",
             path: "Sources/px_widgets.xcframework"
@@ -169,10 +169,6 @@ let package = Package(
             name: "wakelock",
             path: "Sources/wakelock.xcframework"
         ),
-//        .binaryTarget(
-//            name: "WebRTC",
-//            path: "Sources/WebRTC.framework"
-//        ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
             path: "Sources/webview_flutter_wkwebview.xcframework"
