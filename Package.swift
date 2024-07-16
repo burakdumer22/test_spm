@@ -50,7 +50,7 @@ let package = Package(
                 .copy("syncfusion_flutter_pdfviewer.xcframework"),
                 .copy("url_launcher_ios.xcframework"),
                 .copy("wakelock.xcframework"),
-                .copy("WebRTC.framework"),
+//                .copy("WebRTC.framework"),
                 .copy("webview_flutter_wkwebview.xcframework")
             ]
         ),
