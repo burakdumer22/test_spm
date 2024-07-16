@@ -36,7 +36,7 @@ let package = Package(
                 "FlutterPluginRegistrant",
                 "image_picker_ios",
                 "JGProgressHUD",
-//                "JNKKeychain",
+                "JNKKeychain",
                 "light_weight_picker",
                 "local_auth_darwin",
                 "mobile_device_identifier",
@@ -57,16 +57,16 @@ let package = Package(
                 "wakelock",
                 "webview_flutter_wkwebview"
             ],
-            path: "Sources",
-            resources: [
-                .copy("JNKKeychain.xcframework"),
-            ]
+            path: "Sources"
+//            resources: [
+//                .copy("JNKKeychain.xcframework"),
+//            ]
 
         ),
-//        .binaryTarget(
-//            name: "JNKKeychain",
-//            path: "Sources/JNKKeychain.xcframework"
-//        ),
+        .binaryTarget(
+            name: "JNKKeychain",
+            path: "Sources/JNKKeychain.xcframework"
+        ),
         .binaryTarget(
             name: "ArkFace",
             path: "Sources/ArkFace.xcframework"
