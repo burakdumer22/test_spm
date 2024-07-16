@@ -23,10 +23,8 @@ let package = Package(
                 "App",
                 "ArkFace",
                 "ArkNFC",
+                //"arksigner",
                 "ArkTCKK",
-//                "arksigner",
-                "JitsiMeetSDK",
-                "WebRTC",
                 "connectivity_plus",
                 "customer_acquisition",
                 "device_info_plus",
@@ -36,6 +34,7 @@ let package = Package(
                 "FlutterPluginRegistrant",
                 "image_picker_ios",
                 "JGProgressHUD",
+                "JitsiMeetSDK",
                 "JNKeychain",
                 "light_weight_picker",
                 "local_auth_darwin",
@@ -46,7 +45,7 @@ let package = Package(
                 "permission_handler_apple",
                 "px_calculations",
                 "px_error_management",
-//                "px_form_generator",
+                "px_form_genarator",
                 "px_widgets",
                 "Reachability",
                 "SCLAlertView",
@@ -55,13 +54,14 @@ let package = Package(
                 "syncfusion_flutter_pdfviewer",
                 "url_launcher_ios",
                 "wakelock",
+                "WebRTC",
                 "webview_flutter_wkwebview"
             ],
             path: "Sources"
         ),
         .binaryTarget(
-            name: "JNKeychain",
-            path: "Sources/JNKeychain.xcframework"
+            name: "App",
+            path: "Sources/App.xcframework"
         ),
         .binaryTarget(
             name: "ArkFace",
@@ -71,25 +71,13 @@ let package = Package(
             name: "ArkNFC",
             path: "Sources/ArkNFC.xcframework"
         ),
-        .binaryTarget(
-            name: "ArkTCKK",
-            path: "Sources/ArkTCKK.xcframework"
-        ),
 //        .binaryTarget(
 //            name: "arksigner",
 //            path: "Sources/arksigner.xcframework"
 //        ),
         .binaryTarget(
-            name: "JitsiMeetSDK",
-            path: "Sources/JitsiMeetSDK.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebRTC",
-            path: "Sources/WebRTC.xcframework"
-        ),
-        .binaryTarget(
-            name: "App",
-            path: "Sources/App.xcframework"
+            name: "ArkTCKK",
+            path: "Sources/ArkTCKK.xcframework"
         ),
         .binaryTarget(
             name: "connectivity_plus",
@@ -128,6 +116,14 @@ let package = Package(
             path: "Sources/JGProgressHUD.xcframework"
         ),
         .binaryTarget(
+            name: "JitsiMeetSDK",
+            path: "Sources/JitsiMeetSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "JNKeychain",
+            path: "Sources/JNKeychain.xcframework"
+        ),
+        .binaryTarget(
             name: "light_weight_picker",
             path: "Sources/light_weight_picker.xcframework"
         ),
@@ -164,6 +160,10 @@ let package = Package(
             path: "Sources/px_error_management.xcframework"
         ),
         .binaryTarget(
+            name: "px_form_genarator",
+            path: "Sources/px_form_genarator.xcframework"
+        ),
+        .binaryTarget(
             name: "px_widgets",
             path: "Sources/px_widgets.xcframework"
         ),
@@ -194,6 +194,10 @@ let package = Package(
         .binaryTarget(
             name: "wakelock",
             path: "Sources/wakelock.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebRTC",
+            path: "Sources/WebRTC.xcframework"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
