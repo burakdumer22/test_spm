@@ -29,7 +29,7 @@ let package = Package(
                 "FlutterPluginRegistrant",
                 "image_picker_ios",
                 "JGProgressHUD",
-                "JNKKeychain",
+//                "JNKKeychain",
                 "light_weight_picker",
                 "local_auth_darwin",
                 "mobile_device_identifier",
@@ -39,7 +39,7 @@ let package = Package(
                 "permission_handler_apple",
                 "px_calculations",
                 "px_error_management",
-                "px_form_generator",
+//                "px_form_generator",
                 "px_widgets",
                 "Reachability",
                 "SCLAlertView",
@@ -93,10 +93,10 @@ let package = Package(
             name: "JGProgressHUD",
             path: "Sources/JGProgressHUD.xcframework"
         ),
-        .binaryTarget(
-            name: "JNKKeychain",
-            path: "Sources/JNKKeychain.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "JNKKeychain",
+//            path: "Sources/JNKKeychain.xcframework"
+//        ),
         .binaryTarget(
             name: "light_weight_picker",
             path: "Sources/light_weight_picker.xcframework"
@@ -133,10 +133,10 @@ let package = Package(
             name: "px_error_management",
             path: "Sources/px_error_management.xcframework"
         ),
-        .binaryTarget(
-            name: "px_form_generator",
-            path: "Sources/px_form_generator.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "px_form_generator",
+//            path: "Sources/px_form_generator.xcframework"
+//        ),
         .binaryTarget(
             name: "px_widgets",
             path: "Sources/px_widgets.xcframework"
