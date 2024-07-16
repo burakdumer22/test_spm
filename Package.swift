@@ -23,7 +23,7 @@ let package = Package(
                 "App",
                 "ArkFace",
                 "ArkNFC",
-                //"arksigner",
+                "arksigner",
                 "ArkTCKK",
                 "connectivity_plus",
                 "customer_acquisition",
@@ -57,7 +57,8 @@ let package = Package(
                 "WebRTC",
                 "webview_flutter_wkwebview"
             ],
-            path: "Sources"
+            path: "Sources",
+            exclude:["arksigner.xcframework"]
         ),
         .binaryTarget(
             name: "App",
@@ -71,10 +72,10 @@ let package = Package(
             name: "ArkNFC",
             path: "Sources/ArkNFC.xcframework"
         ),
-//        .binaryTarget(
-//            name: "arksigner",
-//            path: "Sources/arksigner.xcframework"
-//        ),
+        .binaryTarget(
+            name: "arksigner",
+            path: "Sources/arksigner.xcframework"
+        ),
         .binaryTarget(
             name: "ArkTCKK",
             path: "Sources/ArkTCKK.xcframework"
