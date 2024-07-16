@@ -36,7 +36,7 @@ let package = Package(
                 "FlutterPluginRegistrant",
                 "image_picker_ios",
                 "JGProgressHUD",
-                "JNKKeychain",
+                "JNKeychain",
                 "light_weight_picker",
                 "local_auth_darwin",
                 "mobile_device_identifier",
@@ -64,8 +64,8 @@ let package = Package(
 
         ),
         .binaryTarget(
-            name: "JNKKeychain",
-            path: "Sources/JNKKeychain.xcframework"
+            name: "JNKeychain",
+            path: "Sources/JNKeychain.xcframework"
         ),
         .binaryTarget(
             name: "ArkFace",
