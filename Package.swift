@@ -85,11 +85,11 @@ let package = Package(
         ),
         .binaryTarget(
             name: "JitsiMeetSDK",
-            path: "Sources/JitsiMeetSDK.xcframework"
+            path: "Sources/JitsiMeetSDK.framework"
         ),
         .binaryTarget(
             name: "WebRTC",
-            path: "Sources/WebRTC.xcframework"
+            path: "Sources/WebRTC.framework"
         ),
         .binaryTarget(
             name: "App",
