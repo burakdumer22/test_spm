@@ -58,10 +58,6 @@ let package = Package(
                 "webview_flutter_wkwebview"
             ],
             path: "Sources"
-//            resources: [
-//                .copy("JNKKeychain.xcframework"),
-//            ]
-
         ),
         .binaryTarget(
             name: "JNKeychain",

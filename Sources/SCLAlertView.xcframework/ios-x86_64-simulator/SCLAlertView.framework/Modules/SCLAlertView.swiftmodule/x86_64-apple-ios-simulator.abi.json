@@ -1257,9 +1257,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1354,9 +1354,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1466,9 +1466,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1591,9 +1591,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1727,9 +1727,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1841,9 +1841,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1955,9 +1955,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2069,9 +2069,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5241,9 +5241,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5347,9 +5347,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -5446,9 +5446,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5562,9 +5562,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5669,9 +5669,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -5760,9 +5760,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5850,9 +5850,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5940,9 +5940,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6030,9 +6030,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6120,9 +6120,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6218,9 +6218,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6332,9 +6332,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6446,9 +6446,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6560,9 +6560,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6685,9 +6685,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6821,9 +6821,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -7558,9 +7558,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7672,9 +7672,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7778,9 +7778,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9044,9 +9044,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -9159,9 +9159,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -12789,7 +12789,6 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
-          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -13320,357 +13319,357 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 1906,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 3082,
       "length": 4,
       "value": "62.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 3190,
       "length": 14,
       "value": "\"SCLAlertView\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4844,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4879,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4924,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4954,
       "length": 4,
       "value": "56.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4989,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5015,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5044,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5075,
       "length": 5,
       "value": "240.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5107,
       "length": 5,
       "value": "178.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5137,
       "length": 4,
       "value": "90.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5171,
       "length": 4,
       "value": "45.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5205,
       "length": 4,
       "value": "80.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5236,
       "length": 4,
       "value": "45.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5289,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5330,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5381,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5438,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5467,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5530,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5571,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5605,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5640,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5782,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5842,
       "length": 8,
       "value": "0xCCCCCC"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5890,
       "length": 8,
       "value": "0x4D4D4D"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5931,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5964,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 9014,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 9019,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 24074,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 26498,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 27565,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 28208,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 28852,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 29500,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 30140,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 30778,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 31376,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 31987,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32019,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32637,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32670,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38823,
       "length": 6,
       "value": "-400.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38866,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38906,
       "length": 3,

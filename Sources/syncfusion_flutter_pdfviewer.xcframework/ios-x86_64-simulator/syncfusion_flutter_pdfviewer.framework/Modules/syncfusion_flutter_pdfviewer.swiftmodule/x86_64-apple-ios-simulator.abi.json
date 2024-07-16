@@ -240,7 +240,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -412,7 +412,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oyakyatirim\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-20.4.54\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-20.4.54\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 30,

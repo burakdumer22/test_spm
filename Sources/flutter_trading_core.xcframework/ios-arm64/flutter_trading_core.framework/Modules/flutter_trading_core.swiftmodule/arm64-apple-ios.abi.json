@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -201,5 +201,20 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/flutter_trading_core\/ios\/Classes\/FlutterTradingCorePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 22,
+      "value": "\"flutter_trading_core\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/flutter_trading_core\/ios\/Classes\/FlutterTradingCorePlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 6,
+      "value": "\"iOS \""
+    }
+  ]
 }
