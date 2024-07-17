@@ -28,7 +28,6 @@ let package = Package(
                 "flutter_secure_storage",
                 "flutter_trading_core",
                 "Flutter",
-//                "FlutterPluginRegistrant",
                 .target(name: "FlutterPluginRegistrant"),
                 "image_picker_ios",
                 "JGProgressHUD",
@@ -40,7 +39,6 @@ let package = Package(
                 "mobiletraderbase",
                 "otsoauth",
                 "path_provider_foundation",
-//                "permission_handler_apple",
                 .target(name: "permission_handler_apple"),
                 "px_calculations",
                 "px_error_management",
@@ -56,7 +54,15 @@ let package = Package(
                 "WebRTC",
                 "webview_flutter_wkwebview"
             ],
-            path: "Sources"
+            path: "Sources",
+            exclude: [
+                "FlutterPluginRegistrant.xcframework",
+                "permission_handler_apple.xcframework",
+                "Supporting Files/Info.plist",
+            ],
+            cSettings: [
+                .headerSearchPath("Frameworks/**"),
+            ]
         ),
         .binaryTarget(
             name: "App",
