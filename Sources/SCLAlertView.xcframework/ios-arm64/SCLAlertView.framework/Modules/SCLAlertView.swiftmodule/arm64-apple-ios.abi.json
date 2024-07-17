@@ -1980,9 +1980,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -2096,9 +2096,9 @@
             "moduleName": "SCLAlertView",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
               "HasStorage",
-              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4029,361 +4029,5030 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 777,
+      "length": 8,
+      "value": "0x22B573"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 8,
+      "value": "0xC1272D"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 876,
+      "length": 8,
+      "value": "0x727375"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 927,
+      "length": 8,
+      "value": "0xFFD110"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 975,
+      "length": 8,
+      "value": "0x2866BF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1023,
+      "length": 8,
+      "value": "0xA429FF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1071,
+      "length": 8,
+      "value": "0xD62DA5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 8,
+      "value": "0x727375"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 1906,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 3082,
       "length": 4,
       "value": "62.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "StringLiteral",
       "offset": 3190,
       "length": 14,
       "value": "\"SCLAlertView\""
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4844,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4879,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4924,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4954,
       "length": 4,
       "value": "56.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 4989,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5015,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5044,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5075,
       "length": 5,
       "value": "240.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5107,
       "length": 5,
       "value": "178.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5137,
       "length": 4,
       "value": "90.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5171,
       "length": 4,
       "value": "45.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5205,
       "length": 4,
       "value": "80.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5236,
       "length": 4,
       "value": "45.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5289,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5330,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5381,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5438,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5467,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5530,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5571,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5605,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 5640,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5782,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5842,
       "length": 8,
       "value": "0xCCCCCC"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 5890,
       "length": 8,
       "value": "0x4D4D4D"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5931,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 5964,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 9014,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 9019,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 9698,
+      "length": 24,
+      "value": "\"NSCoding not supported\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10337,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10699,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10945,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11096,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11308,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11504,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11690,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11751,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12032,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12684,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13045,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13088,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13176,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13325,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13353,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13639,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13702,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13752,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13843,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14346,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 14639,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15211,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15386,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15460,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15466,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15680,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15735,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16072,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16212,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16381,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16561,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16683,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16693,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16934,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17211,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17223,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17247,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17252,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17311,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17377,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17526,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17567,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17578,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17854,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18992,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19536,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 19573,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20283,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 20320,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 23156,
+      "length": 31,
+      "value": "\"Unknow action type for button\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 23238,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23487,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 23525,
+      "length": 4,
+      "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "BooleanLiteral",
       "offset": 24074,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24180,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25682,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25917,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 26498,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26645,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26665,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26684,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26704,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 26871,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26881,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 26924,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26934,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 26975,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 27565,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 28208,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 28852,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 29500,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 30140,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 30778,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 31376,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 31987,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32019,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32637,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "IntegerLiteral",
       "offset": 32670,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32840,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34705,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34782,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34843,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35208,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35219,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 35700,
+      "length": 6,
+      "value": "\"Done\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36783,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 36958,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37878,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 38361,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38823,
       "length": 6,
       "value": "-400.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38866,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/oyakyatirim\/oyak_flutter\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
       "kind": "FloatLiteral",
       "offset": 38906,
       "length": 3,
       "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 39194,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 40552,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 40761,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 40990,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41883,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "StringLiteral",
+      "offset": 42179,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 42380,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 42429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44177,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44415,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44428,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 44434,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44476,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44489,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 44494,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44534,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 44546,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 44576,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45738,
+      "length": 5,
+      "value": "73.25"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45748,
+      "length": 5,
+      "value": "14.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45807,
+      "length": 5,
+      "value": "64.51"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45817,
+      "length": 5,
+      "value": "13.86"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45851,
+      "length": 5,
+      "value": "70.98"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45861,
+      "length": 5,
+      "value": "11.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45895,
+      "length": 5,
+      "value": "66.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45905,
+      "length": 5,
+      "value": "11.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 45963,
+      "length": 5,
+      "value": "27.46"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 45973,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46028,
+      "length": 5,
+      "value": "15.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46038,
+      "length": 5,
+      "value": "39.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46097,
+      "length": 4,
+      "value": "6.84"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46106,
+      "length": 5,
+      "value": "39.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46140,
+      "length": 5,
+      "value": "13.48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46150,
+      "length": 5,
+      "value": "36.93"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46184,
+      "length": 4,
+      "value": "9.28"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46193,
+      "length": 5,
+      "value": "36.93"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46252,
+      "length": 4,
+      "value": "6.84"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46261,
+      "length": 5,
+      "value": "49.02"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46295,
+      "length": 4,
+      "value": "4.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46304,
+      "length": 5,
+      "value": "42.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46338,
+      "length": 4,
+      "value": "4.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46347,
+      "length": 5,
+      "value": "46.42"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46405,
+      "length": 5,
+      "value": "22.91"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46415,
+      "length": 5,
+      "value": "66.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46474,
+      "length": 5,
+      "value": "27.28"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46484,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46515,
+      "length": 5,
+      "value": "24.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46525,
+      "length": 5,
+      "value": "67.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46559,
+      "length": 5,
+      "value": "25.71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46569,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46625,
+      "length": 5,
+      "value": "31.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46635,
+      "length": 5,
+      "value": "66.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46669,
+      "length": 5,
+      "value": "28.86"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46679,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46710,
+      "length": 5,
+      "value": "30.43"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46720,
+      "length": 5,
+      "value": "67.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46778,
+      "length": 5,
+      "value": "73.08"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46788,
+      "length": 5,
+      "value": "23.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46847,
+      "length": 5,
+      "value": "73.25"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46857,
+      "length": 5,
+      "value": "14.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46891,
+      "length": 5,
+      "value": "75.52"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46901,
+      "length": 5,
+      "value": "20.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46935,
+      "length": 4,
+      "value": "75.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 46944,
+      "length": 5,
+      "value": "16.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47027,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47263,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47270,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47321,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47328,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47376,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47383,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47434,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47441,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47627,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47824,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 47831,
+      "length": 5,
+      "value": "48.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47886,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 47893,
+      "length": 4,
+      "value": "39.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 47948,
+      "length": 5,
+      "value": "66.38"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 47958,
+      "length": 5,
+      "value": "34.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47992,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 47999,
+      "length": 5,
+      "value": "36.76"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48033,
+      "length": 5,
+      "value": "69.48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48043,
+      "length": 5,
+      "value": "34.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48099,
+      "length": 5,
+      "value": "61.53"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48109,
+      "length": 5,
+      "value": "35.97"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48143,
+      "length": 5,
+      "value": "64.82"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48153,
+      "length": 5,
+      "value": "34.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48187,
+      "length": 5,
+      "value": "62.69"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48197,
+      "length": 4,
+      "value": "34.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48252,
+      "length": 5,
+      "value": "60.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48262,
+      "length": 5,
+      "value": "35.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48296,
+      "length": 5,
+      "value": "61.33"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48306,
+      "length": 5,
+      "value": "35.97"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48340,
+      "length": 4,
+      "value": "62.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48349,
+      "length": 5,
+      "value": "35.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48404,
+      "length": 5,
+      "value": "60.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48414,
+      "length": 5,
+      "value": "33.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48470,
+      "length": 5,
+      "value": "54.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48480,
+      "length": 5,
+      "value": "26.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48514,
+      "length": 5,
+      "value": "60.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48524,
+      "length": 4,
+      "value": "29.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48557,
+      "length": 5,
+      "value": "57.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48567,
+      "length": 5,
+      "value": "26.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48623,
+      "length": 5,
+      "value": "48.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48633,
+      "length": 5,
+      "value": "29.89"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48667,
+      "length": 5,
+      "value": "51.64"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48677,
+      "length": 5,
+      "value": "26.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48711,
+      "length": 5,
+      "value": "50.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48721,
+      "length": 5,
+      "value": "27.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48776,
+      "length": 5,
+      "value": "48.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48786,
+      "length": 5,
+      "value": "28.71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48842,
+      "length": 5,
+      "value": "43.49"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48852,
+      "length": 5,
+      "value": "21.64"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48886,
+      "length": 5,
+      "value": "48.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48896,
+      "length": 5,
+      "value": "24.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48930,
+      "length": 5,
+      "value": "46.98"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48940,
+      "length": 5,
+      "value": "21.64"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 48996,
+      "length": 5,
+      "value": "39.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49006,
+      "length": 5,
+      "value": "25.37"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49040,
+      "length": 5,
+      "value": "40.97"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49050,
+      "length": 5,
+      "value": "21.64"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49084,
+      "length": 5,
+      "value": "39.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49094,
+      "length": 5,
+      "value": "23.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49149,
+      "length": 5,
+      "value": "39.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49159,
+      "length": 4,
+      "value": "9.07"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49214,
+      "length": 5,
+      "value": "32.24"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49254,
+      "length": 5,
+      "value": "39.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49264,
+      "length": 4,
+      "value": "5.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49297,
+      "length": 5,
+      "value": "35.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49307,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49359,
+      "length": 5,
+      "value": "25.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49369,
+      "length": 4,
+      "value": "9.07"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49402,
+      "length": 5,
+      "value": "28.56"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49412,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49442,
+      "length": 5,
+      "value": "25.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49452,
+      "length": 4,
+      "value": "5.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49506,
+      "length": 5,
+      "value": "25.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49516,
+      "length": 5,
+      "value": "41.47"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49572,
+      "length": 5,
+      "value": "24.29"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49582,
+      "length": 5,
+      "value": "43.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49616,
+      "length": 5,
+      "value": "25.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49626,
+      "length": 5,
+      "value": "42.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49660,
+      "length": 5,
+      "value": "24.68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49670,
+      "length": 5,
+      "value": "43.04"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49726,
+      "length": 4,
+      "value": "9.55"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49735,
+      "length": 5,
+      "value": "43.04"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49769,
+      "length": 5,
+      "value": "16.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49779,
+      "length": 5,
+      "value": "40.88"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49813,
+      "length": 5,
+      "value": "11.88"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49823,
+      "length": 5,
+      "value": "40.69"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49879,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49885,
+      "length": 5,
+      "value": "46.58"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49919,
+      "length": 4,
+      "value": "8.58"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49928,
+      "length": 5,
+      "value": "43.83"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49962,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 49968,
+      "length": 4,
+      "value": "45.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50023,
+      "length": 4,
+      "value": "14.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50032,
+      "length": 5,
+      "value": "55.81"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50066,
+      "length": 4,
+      "value": "8.19"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50075,
+      "length": 5,
+      "value": "50.31"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50109,
+      "length": 5,
+      "value": "12.07"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50119,
+      "length": 5,
+      "value": "53.84"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50174,
+      "length": 4,
+      "value": "27.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50183,
+      "length": 5,
+      "value": "69.56"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50239,
+      "length": 5,
+      "value": "42.91"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50249,
+      "length": 4,
+      "value": "77.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50282,
+      "length": 4,
+      "value": "30.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50291,
+      "length": 5,
+      "value": "74.47"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50325,
+      "length": 5,
+      "value": "35.73"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50335,
+      "length": 5,
+      "value": "77.21"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50391,
+      "length": 5,
+      "value": "43.88"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50401,
+      "length": 4,
+      "value": "77.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50434,
+      "length": 4,
+      "value": "43.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50443,
+      "length": 4,
+      "value": "77.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50476,
+      "length": 5,
+      "value": "43.68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50486,
+      "length": 4,
+      "value": "77.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50541,
+      "length": 5,
+      "value": "47.18"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50551,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50582,
+      "length": 5,
+      "value": "45.04"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50592,
+      "length": 4,
+      "value": "77.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50625,
+      "length": 5,
+      "value": "46.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50635,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50687,
+      "length": 5,
+      "value": "48.34"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50697,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50749,
+      "length": 5,
+      "value": "48.34"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50759,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50812,
+      "length": 5,
+      "value": "71.61"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50822,
+      "length": 5,
+      "value": "52.08"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50856,
+      "length": 5,
+      "value": "56.48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50866,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50897,
+      "length": 5,
+      "value": "69.87"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50907,
+      "length": 5,
+      "value": "75.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50963,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 50970,
+      "length": 5,
+      "value": "48.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51004,
+      "length": 5,
+      "value": "71.81"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51014,
+      "length": 5,
+      "value": "51.29"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51048,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51055,
+      "length": 5,
+      "value": "49.72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51132,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51316,
+      "length": 5,
+      "value": "0.236"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51330,
+      "length": 5,
+      "value": "0.236"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51343,
+      "length": 5,
+      "value": "0.236"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51357,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51525,
+      "length": 5,
+      "value": "40.94"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51535,
+      "length": 5,
+      "value": "63.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51593,
+      "length": 5,
+      "value": "36.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51603,
+      "length": 5,
+      "value": "65.55"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51637,
+      "length": 5,
+      "value": "39.06"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51647,
+      "length": 5,
+      "value": "63.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51681,
+      "length": 5,
+      "value": "37.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51691,
+      "length": 5,
+      "value": "64.18"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51749,
+      "length": 5,
+      "value": "34.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51759,
+      "length": 5,
+      "value": "70.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51793,
+      "length": 4,
+      "value": "34.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51802,
+      "length": 5,
+      "value": "66.92"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51836,
+      "length": 5,
+      "value": "34.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51846,
+      "length": 5,
+      "value": "68.49"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51904,
+      "length": 5,
+      "value": "36.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51914,
+      "length": 5,
+      "value": "75.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51948,
+      "length": 5,
+      "value": "34.14"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51958,
+      "length": 5,
+      "value": "72.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 51992,
+      "length": 4,
+      "value": "34.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52001,
+      "length": 5,
+      "value": "74.17"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52059,
+      "length": 5,
+      "value": "40.94"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52069,
+      "length": 4,
+      "value": "77.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52102,
+      "length": 5,
+      "value": "37.54"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52112,
+      "length": 5,
+      "value": "76.91"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52146,
+      "length": 5,
+      "value": "39.06"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52156,
+      "length": 4,
+      "value": "77.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52213,
+      "length": 5,
+      "value": "45.86"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52223,
+      "length": 5,
+      "value": "75.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52257,
+      "length": 5,
+      "value": "42.83"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52267,
+      "length": 4,
+      "value": "77.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52300,
+      "length": 5,
+      "value": "44.53"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52310,
+      "length": 5,
+      "value": "76.72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52368,
+      "length": 5,
+      "value": "47.93"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52378,
+      "length": 5,
+      "value": "70.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52412,
+      "length": 5,
+      "value": "47.18"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52422,
+      "length": 5,
+      "value": "74.17"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52456,
+      "length": 5,
+      "value": "47.93"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52466,
+      "length": 5,
+      "value": "72.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52524,
+      "length": 5,
+      "value": "45.86"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52534,
+      "length": 5,
+      "value": "65.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52568,
+      "length": 5,
+      "value": "47.93"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52578,
+      "length": 5,
+      "value": "68.49"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52612,
+      "length": 5,
+      "value": "47.18"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52622,
+      "length": 5,
+      "value": "66.72"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52680,
+      "length": 5,
+      "value": "40.94"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52690,
+      "length": 5,
+      "value": "63.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52724,
+      "length": 5,
+      "value": "44.53"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52734,
+      "length": 5,
+      "value": "64.18"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52768,
+      "length": 5,
+      "value": "42.83"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 52778,
+      "length": 5,
+      "value": "63.39"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52859,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53074,
+      "length": 5,
+      "value": "46.23"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53084,
+      "length": 4,
+      "value": "4.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53140,
+      "length": 5,
+      "value": "40.94"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53150,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53182,
+      "length": 5,
+      "value": "44.91"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53192,
+      "length": 4,
+      "value": "3.09"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53225,
+      "length": 5,
+      "value": "43.02"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53235,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53290,
+      "length": 5,
+      "value": "34.71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53300,
+      "length": 4,
+      "value": "4.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53333,
+      "length": 5,
+      "value": "38.68"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53343,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53375,
+      "length": 5,
+      "value": "36.03"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53385,
+      "length": 4,
+      "value": "3.09"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53441,
+      "length": 4,
+      "value": "31.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53450,
+      "length": 4,
+      "value": "8.77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53483,
+      "length": 5,
+      "value": "33.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53493,
+      "length": 4,
+      "value": "5.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53526,
+      "length": 4,
+      "value": "31.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53535,
+      "length": 4,
+      "value": "7.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53590,
+      "length": 4,
+      "value": "31.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53599,
+      "length": 5,
+      "value": "19.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53655,
+      "length": 5,
+      "value": "34.71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53665,
+      "length": 5,
+      "value": "54.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53722,
+      "length": 5,
+      "value": "40.38"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53732,
+      "length": 5,
+      "value": "58.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53766,
+      "length": 4,
+      "value": "34.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53775,
+      "length": 4,
+      "value": "56.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53808,
+      "length": 5,
+      "value": "36.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53818,
+      "length": 5,
+      "value": "58.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53875,
+      "length": 5,
+      "value": "45.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53885,
+      "length": 5,
+      "value": "54.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53919,
+      "length": 5,
+      "value": "44.34"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53929,
+      "length": 5,
+      "value": "58.16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53963,
+      "length": 5,
+      "value": "45.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 53973,
+      "length": 5,
+      "value": "56.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54029,
+      "length": 4,
+      "value": "48.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54038,
+      "length": 5,
+      "value": "19.36"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54094,
+      "length": 4,
+      "value": "48.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54103,
+      "length": 4,
+      "value": "8.77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54159,
+      "length": 5,
+      "value": "46.23"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54169,
+      "length": 4,
+      "value": "4.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54202,
+      "length": 4,
+      "value": "48.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54211,
+      "length": 4,
+      "value": "7.01"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54244,
+      "length": 5,
+      "value": "47.74"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54254,
+      "length": 4,
+      "value": "5.44"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54332,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54507,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54521,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54534,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54548,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54679,
+      "length": 5,
+      "value": "45.66"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54689,
+      "length": 5,
+      "value": "15.96"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54743,
+      "length": 5,
+      "value": "45.66"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54753,
+      "length": 4,
+      "value": "5.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54786,
+      "length": 5,
+      "value": "48.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54796,
+      "length": 5,
+      "value": "12.99"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54830,
+      "length": 5,
+      "value": "48.78"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54840,
+      "length": 4,
+      "value": "8.19"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54893,
+      "length": 5,
+      "value": "34.34"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54903,
+      "length": 4,
+      "value": "5.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54936,
+      "length": 5,
+      "value": "42.53"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54946,
+      "length": 4,
+      "value": "2.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54979,
+      "length": 5,
+      "value": "37.47"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 54989,
+      "length": 4,
+      "value": "2.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55042,
+      "length": 5,
+      "value": "34.34"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55052,
+      "length": 5,
+      "value": "15.96"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55086,
+      "length": 5,
+      "value": "31.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55096,
+      "length": 4,
+      "value": "8.19"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55129,
+      "length": 5,
+      "value": "31.22"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55139,
+      "length": 5,
+      "value": "12.99"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55193,
+      "length": 5,
+      "value": "45.66"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55203,
+      "length": 5,
+      "value": "15.96"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55237,
+      "length": 5,
+      "value": "37.47"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55247,
+      "length": 5,
+      "value": "18.92"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55281,
+      "length": 5,
+      "value": "42.53"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55291,
+      "length": 5,
+      "value": "18.92"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55371,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55378,
+      "length": 5,
+      "value": "69.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55432,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55439,
+      "length": 2,
+      "value": "77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55470,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55477,
+      "length": 5,
+      "value": "73.58"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55511,
+      "length": 4,
+      "value": "44.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55520,
+      "length": 2,
+      "value": "77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55570,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55577,
+      "length": 2,
+      "value": "77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55628,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55635,
+      "length": 5,
+      "value": "69.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55669,
+      "length": 4,
+      "value": "35.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55678,
+      "length": 2,
+      "value": "77"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55709,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55716,
+      "length": 5,
+      "value": "73.58"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55769,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55776,
+      "length": 5,
+      "value": "35.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55830,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55837,
+      "length": 5,
+      "value": "27.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55871,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55878,
+      "length": 5,
+      "value": "31.08"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55912,
+      "length": 4,
+      "value": "35.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55921,
+      "length": 5,
+      "value": "27.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55974,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 55981,
+      "length": 5,
+      "value": "27.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56035,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56042,
+      "length": 5,
+      "value": "35.26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56076,
+      "length": 4,
+      "value": "44.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56085,
+      "length": 5,
+      "value": "27.67"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56119,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56126,
+      "length": 5,
+      "value": "31.08"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56179,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56186,
+      "length": 5,
+      "value": "69.41"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56379,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56390,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56400,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56411,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56538,
+      "length": 2,
+      "value": "71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56545,
+      "length": 3,
+      "value": "2.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56596,
+      "length": 4,
+      "value": "71.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56605,
+      "length": 4,
+      "value": "15.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56638,
+      "length": 4,
+      "value": "74.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56647,
+      "length": 3,
+      "value": "5.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56679,
+      "length": 4,
+      "value": "75.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56688,
+      "length": 4,
+      "value": "11.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56739,
+      "length": 4,
+      "value": "64.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56748,
+      "length": 4,
+      "value": "23.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56799,
+      "length": 4,
+      "value": "49.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56808,
+      "length": 4,
+      "value": "11.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56859,
+      "length": 4,
+      "value": "57.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56868,
+      "length": 3,
+      "value": "2.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56919,
+      "length": 4,
+      "value": "69.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56928,
+      "length": 3,
+      "value": "1.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56960,
+      "length": 4,
+      "value": "60.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 56969,
+      "length": 4,
+      "value": "-1.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57002,
+      "length": 4,
+      "value": "66.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57011,
+      "length": 4,
+      "value": "-1.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57062,
+      "length": 2,
+      "value": "71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57069,
+      "length": 3,
+      "value": "2.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57119,
+      "length": 2,
+      "value": "71"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57126,
+      "length": 3,
+      "value": "2.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57202,
+      "length": 4,
+      "value": "47.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57211,
+      "length": 4,
+      "value": "13.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57262,
+      "length": 4,
+      "value": "13.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57271,
+      "length": 4,
+      "value": "53.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57322,
+      "length": 4,
+      "value": "15.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57331,
+      "length": 4,
+      "value": "55.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57382,
+      "length": 4,
+      "value": "50.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57391,
+      "length": 4,
+      "value": "15.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57442,
+      "length": 4,
+      "value": "47.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57451,
+      "length": 4,
+      "value": "13.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57502,
+      "length": 4,
+      "value": "47.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57511,
+      "length": 4,
+      "value": "13.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57588,
+      "length": 4,
+      "value": "17.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57597,
+      "length": 4,
+      "value": "56.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57648,
+      "length": 4,
+      "value": "23.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57657,
+      "length": 4,
+      "value": "62.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57708,
+      "length": 4,
+      "value": "58.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57717,
+      "length": 4,
+      "value": "22.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57768,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57775,
+      "length": 4,
+      "value": "17.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57826,
+      "length": 4,
+      "value": "17.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57835,
+      "length": 4,
+      "value": "56.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57886,
+      "length": 4,
+      "value": "17.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57895,
+      "length": 4,
+      "value": "56.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57972,
+      "length": 4,
+      "value": "25.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 57981,
+      "length": 4,
+      "value": "63.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58032,
+      "length": 4,
+      "value": "60.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58041,
+      "length": 4,
+      "value": "24.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58092,
+      "length": 4,
+      "value": "62.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58101,
+      "length": 4,
+      "value": "26.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58152,
+      "length": 4,
+      "value": "28.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58161,
+      "length": 4,
+      "value": "65.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58212,
+      "length": 4,
+      "value": "25.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58221,
+      "length": 4,
+      "value": "63.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58272,
+      "length": 4,
+      "value": "25.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58281,
+      "length": 4,
+      "value": "63.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58358,
+      "length": 4,
+      "value": "25.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58367,
+      "length": 4,
+      "value": "68.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58418,
+      "length": 3,
+      "value": "4.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58426,
+      "length": 4,
+      "value": "79.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58477,
+      "length": 4,
+      "value": "11.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58486,
+      "length": 4,
+      "value": "55.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58537,
+      "length": 4,
+      "value": "25.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58546,
+      "length": 4,
+      "value": "68.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 58616,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58662,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58834,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58855,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58875,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 58896,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59041,
+      "length": 5,
+      "value": "33.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59060,
+      "length": 4,
+      "value": "54.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59125,
+      "length": 5,
+      "value": "44.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59144,
+      "length": 4,
+      "value": "54.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59209,
+      "length": 5,
+      "value": "44.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59228,
+      "length": 4,
+      "value": "47.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59294,
+      "length": 5,
+      "value": "51.85"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59313,
+      "length": 4,
+      "value": "37.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59355,
+      "length": 5,
+      "value": "44.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59374,
+      "length": 4,
+      "value": "42.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59416,
+      "length": 5,
+      "value": "46.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59435,
+      "length": 4,
+      "value": "41.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59501,
+      "length": 5,
+      "value": "61.95"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59520,
+      "length": 4,
+      "value": "19.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59562,
+      "length": 5,
+      "value": "59.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59581,
+      "length": 4,
+      "value": "31.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59623,
+      "length": 5,
+      "value": "61.95"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59642,
+      "length": 4,
+      "value": "28.5"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59708,
+      "length": 5,
+      "value": "41.45"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59727,
+      "length": 3,
+      "value": "2.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59768,
+      "length": 5,
+      "value": "61.95"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59787,
+      "length": 3,
+      "value": "7.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59828,
+      "length": 5,
+      "value": "52.85"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59847,
+      "length": 3,
+      "value": "2.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59912,
+      "length": 5,
+      "value": "25.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59931,
+      "length": 3,
+      "value": "5.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59972,
+      "length": 5,
+      "value": "34.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 59991,
+      "length": 3,
+      "value": "2.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60032,
+      "length": 5,
+      "value": "29.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60051,
+      "length": 3,
+      "value": "3.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60115,
+      "length": 5,
+      "value": "25.05"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60134,
+      "length": 4,
+      "value": "14.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60200,
+      "length": 5,
+      "value": "38.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60219,
+      "length": 4,
+      "value": "12.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60261,
+      "length": 5,
+      "value": "29.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60280,
+      "length": 4,
+      "value": "13.2"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60322,
+      "length": 5,
+      "value": "32.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60341,
+      "length": 4,
+      "value": "12.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60407,
+      "length": 5,
+      "value": "49.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60426,
+      "length": 4,
+      "value": "20.8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60468,
+      "length": 5,
+      "value": "45.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60487,
+      "length": 4,
+      "value": "12.3"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60529,
+      "length": 5,
+      "value": "49.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60548,
+      "length": 4,
+      "value": "14.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60614,
+      "length": 5,
+      "value": "43.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60633,
+      "length": 4,
+      "value": "31.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60675,
+      "length": 5,
+      "value": "49.65"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60694,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60734,
+      "length": 5,
+      "value": "47.95"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60753,
+      "length": 4,
+      "value": "28.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60819,
+      "length": 5,
+      "value": "33.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60838,
+      "length": 4,
+      "value": "46.6"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60880,
+      "length": 5,
+      "value": "37.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60899,
+      "length": 4,
+      "value": "36.9"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60941,
+      "length": 5,
+      "value": "33.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 60960,
+      "length": 4,
+      "value": "39.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61025,
+      "length": 5,
+      "value": "33.75"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61044,
+      "length": 4,
+      "value": "54.1"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61140,
+      "length": 5,
+      "value": "33.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61159,
+      "length": 4,
+      "value": "75.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61224,
+      "length": 5,
+      "value": "45.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61243,
+      "length": 4,
+      "value": "75.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61308,
+      "length": 5,
+      "value": "45.35"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61327,
+      "length": 4,
+      "value": "63.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61392,
+      "length": 5,
+      "value": "33.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61411,
+      "length": 4,
+      "value": "63.7"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61476,
+      "length": 5,
+      "value": "33.15"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "FloatLiteral",
+      "offset": 61495,
+      "length": 4,
+      "value": "75.4"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61830,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61842,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 61847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61854,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62254,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62266,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 62271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62669,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62681,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 62686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62693,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63090,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63102,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63107,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63505,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63517,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63911,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63923,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64329,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64341,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 64346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLAlertView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 405,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 417,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 451,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 686,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 734,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 752,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 804,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/trading_integration\/poca\/.ios\/Pods\/SCLAlertView\/SCLAlertView\/SCLExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 838,
+      "length": 3,
+      "value": "1.0"
     }
   ]
 }

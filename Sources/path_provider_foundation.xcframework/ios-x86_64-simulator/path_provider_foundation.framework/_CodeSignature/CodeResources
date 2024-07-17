@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/path_provider_foundation-Swift.h</key>
 		<data>
-		cIs4BE97IeZlhODzXWB2XCQkSF4=
+		UTZLvdFDIiZ6xO19Yu5dgzelyqo=
 		</data>
 		<key>Headers/path_provider_foundation-umbrella.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zXbvBtQHcd/eyAO/A+Ktof9VAtw=
+		Fs0Dprm6oYzHTiySEPOIfwv882Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,27 +22,35 @@
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		d5+JPADsujb8hOZnBXVdltMsFlg=
+		SePpva/NG70H2ObvftZ4yYNSS2k=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dr3KSKAtxNb6z9+e3AG9eP8WvR8=
+		I0Ss45Qr4JdWMLcm32QEe/nofqY=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		sgvf+k357jqVFFVQbNL+EFM58+k=
+		rcokU03S0HOWqp8VGSj2+qkMOBA=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		36D0fgG6TfuXyXfnUeOK5ts06AA=
+		3ZqO9d6r/EnB6hO0QVCuWTqEpCo=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sgvf+k357jqVFFVQbNL+EFM58+k=
+		rcokU03S0HOWqp8VGSj2+qkMOBA=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jTAoqutM0RtVlr6rMTB5bM8AEw0=
+		ndrHyLF1nybY3QxQZW1h/kDz8xU=
+		</data>
+		<key>path_provider_foundation_privacy.bundle/Info.plist</key>
+		<data>
+		sXfGMfyhEBrqnyQSxkKCyc+nkCg=
+		</data>
+		<key>path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uuk/z/+w50QCEE6UKLN+UWASIVrF10G+a72EezykrjA=
+			MLxGMQ1fj8aE2mWsGM4iSmhsYbflKq6BWKpvLyrpqBE=
 			</data>
 		</dict>
 		<key>Headers/path_provider_foundation-umbrella.h</key>
@@ -72,42 +80,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYUzyfQuR8mETJoiNK61/nA7d1Adp94ti+xX3H3kwQs=
+			aA5HPZBKSQLOZ7Woytuk4yfdZpH3XEgfNgJnROjgQgk=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mwHkGmn6Wk1dEMURnG3YiSLOvUCe/itp/+FO4po2z1M=
+			pxisQ7n4NxRexH4IxeXX94h8RliGNPTht8XNFrX4x/w=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UsGBfctJw7YZHtqBEmiHPynvmHfaHZE9545uD48Sxjo=
+			43vbLOwrREvRgc5Rxh3Cml9dRgcoBNnOyYxbP7+JrCE=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z08d0MAJeBkKQFRwOD4vgBR5ENyZqHxIn+79Hd5AtNM=
+			hV594pIQ3nmFB6+CYCsLNNYzcqzZzUungkQUFB7eGIU=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UsGBfctJw7YZHtqBEmiHPynvmHfaHZE9545uD48Sxjo=
+			43vbLOwrREvRgc5Rxh3Cml9dRgcoBNnOyYxbP7+JrCE=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ngrAB0W6bpfF3YMgn4e5RmWBwPhzgnQfrL8/uStZ1X4=
+			8b7T7WDYgTlKPMEOevP16yH6ygB+7lQpkc5d+Hu2gEo=
+			</data>
+		</dict>
+		<key>path_provider_foundation_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jTLk21H/G9upri7PnqK1AsO0GrL0GfQsbplnxdy23Kw=
+			</data>
+		</dict>
+		<key>path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
 	</dict>

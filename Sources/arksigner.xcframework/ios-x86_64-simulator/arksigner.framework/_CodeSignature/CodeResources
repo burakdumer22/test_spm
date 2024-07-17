@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/arksigner-Swift.h</key>
 		<data>
-		xNyczCBwl/XION4dxBDguuyB8hg=
+		OuHgvPwtOAShbG3klVts8Yous0g=
 		</data>
 		<key>Headers/arksigner-umbrella.h</key>
 		<data>
@@ -62,31 +62,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DYprEQjooX6uWKoHPI2mIhsbMGA=
+		n0Iw6LT554Jseek6wuWJzfBi6U0=
 		</data>
 		<key>Modules/arksigner.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		656IBtEafJPJy/D23whdyeecMtw=
+		tWC5OzYVTbGP2kG61UvoGh0wcz0=
 		</data>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hmlKKSED0f8u9pA+QqSEFsCMvQY=
+		OXX4q5vjAKmhRRYhXDY3cKA23W4=
 		</data>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dXkH6U9gaRqt6EkSirBFkLEt3fQ=
+		Y/FRYSTz3At9vUoxofmVwAL4xuU=
 		</data>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PrNlp0l+0Jbbu5em4Rsqh165KCM=
+		eIcEe5D8/+lZpizXDKmAkQm2ZXc=
 		</data>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dXkH6U9gaRqt6EkSirBFkLEt3fQ=
+		Y/FRYSTz3At9vUoxofmVwAL4xuU=
 		</data>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GUR6CzggWKfJflS+goSmCl8uy8I=
+		bwPruHNuotiAjWOcyHowvthcisw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>SuccessOrFailViewController.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		ZIi1jRYIih+Yh272EvsHAXo52V4=
+		Sq8+VxGeM+NcK+mqeytvMwLw5sk=
 		</data>
 		<key>VideoCallLoungeViewController.storyboardc/Info.plist</key>
 		<data>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L1GCec13KOJd9ZRlcsIfEabskrP2YCjdzhFfVbACFH8=
+			9MbdgMJQm6Z32h5CQ3E9UZ5JDidMYtkuFgW5wEzBXbk=
 			</data>
 		</dict>
 		<key>Headers/arksigner-umbrella.h</key>
@@ -233,42 +233,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U3PtYScGBRCEwi2ssCPWazA0AlRtMUh5DFtZmfBoJx0=
+			kHny/RbjEeriM9uZedAQYb+9hgQomWa6APHPx+kAy6k=
 			</data>
 		</dict>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bFwVLj5zD5L2rbUUsSSXNLE5C+2DZG/3U5+QLeRPrNw=
+			jrqtlwSfECpE5Gd6kzbfJEczn9wHOnYKbHqa4ozFn50=
 			</data>
 		</dict>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBY6pzwYaBBI0Aaw1R6zMTrjlG6sFyb1/rFEyjKbnv4=
+			MKQJsseS4lqPQufBacVIs5fP7temWA+4wPltmcbOoc0=
 			</data>
 		</dict>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dBKYV9mrrKIGxKf5/+0poZQnCr6TzR6ILgPd9ngGgoA=
+			qN8XUwRZ77bvUsuYp7Ett0OWy92ywPj6ghAJ9JOwfFU=
 			</data>
 		</dict>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBY6pzwYaBBI0Aaw1R6zMTrjlG6sFyb1/rFEyjKbnv4=
+			MKQJsseS4lqPQufBacVIs5fP7temWA+4wPltmcbOoc0=
 			</data>
 		</dict>
 		<key>Modules/arksigner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RmlWP1Lsn9wphofJSG3MJAa/HvN8WG53StZGhoExAhA=
+			N83Cbb5ohlBecMbniIGIfJUSz51ramKLZAIILZKm+GQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -296,7 +296,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aMeAfiZ41HFT0L/eLUciucs76SFYI+LE7bIHIEmWVRs=
+			7e3F9tF+I5W10l6+mcZaWhL+vyoNkwscAv7e0Ftq6Qs=
 			</data>
 		</dict>
 		<key>VideoCallLoungeViewController.storyboardc/Info.plist</key>

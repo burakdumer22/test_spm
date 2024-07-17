@@ -43,7 +43,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -261,9 +261,9 @@
             "moduleName": "light_weight_picker",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -722,7 +722,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oyakyatirim\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
       "kind": "Array",
       "offset": 3114,
       "length": 2,

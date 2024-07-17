@@ -43,7 +43,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -286,11 +286,158 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oyakyatirim\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 21,
+      "value": "\"light_weight_picker\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 18,
+      "value": "\"browseAndGetFile\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 11,
+      "value": "\"fileTypes\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 15,
+      "value": "\"fileExtension\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 10,
+      "value": "\"fileName\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 11,
+      "value": "\"fileBytes\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2039,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 19,
+      "value": "\"Data Not Selected\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2258,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 19,
+      "value": "\"Data Not Selected\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "Array",
+      "offset": 2880,
+      "length": 7,
+      "value": "[\"*\/*\"]"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
       "kind": "Array",
       "offset": 3114,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3269,
+      "length": 5,
+      "value": "\"All\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3387,
+      "length": 8,
+      "value": "\"Images\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 8,
+      "value": "\"Audios\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3597,
+      "length": 8,
+      "value": "\"Videos\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3702,
+      "length": 5,
+      "value": "\"Png\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3802,
+      "length": 5,
+      "value": "\"Jpg\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 5,
+      "value": "\"Pdf\""
+    },
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 6534,
+      "length": 27,
+      "value": "\"com.apple.quicktime-image\""
     }
   ]
 }

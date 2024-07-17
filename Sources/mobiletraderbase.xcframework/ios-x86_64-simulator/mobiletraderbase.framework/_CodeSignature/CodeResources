@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/mobiletraderbase-Swift.h</key>
 		<data>
-		TbVADn+zWFChAxv1xWJEjMBcoxc=
+		MQTWpNNAobFKW0dwNmOpylUd9GE=
 		</data>
 		<key>Headers/mobiletraderbase-umbrella.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vkCXa9eQ9ojmaaLvAeRh0AkZD1A=
+		BwP2trnzrB2Gr3Vjg8mVw2woh2A=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		XW7LfgorLfH1V8ZkCu/0/5RU0Q0=
+		1LPsciIRUjbf39MEKBDn4yzy/Ho=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pPkTXtsJGZH/7vB/VG8dqgfxviw=
+		plWZwxRzrPIZd/anKk51wdluo9o=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NoFVU05JnUkTdToLY3Rxbn7B9qI=
+		DWJ/2qlDNNNfjmXoCWUOf1pBh0I=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Hcua0vNJOjL3KC3PdPjfBwAbX6c=
+		Scn/GeI2+sW9uje3HKbBdcNysSQ=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NoFVU05JnUkTdToLY3Rxbn7B9qI=
+		DWJ/2qlDNNNfjmXoCWUOf1pBh0I=
 		</data>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Xj45p6pqYCngpi0P78qgbwxnyQ=
+		xe6j5FWTxsZQmd8l0gDAnmHQCL4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HlFsXCM6f2gXfNQ4hpksUj9PmxUb0P68CRoxjWTen4=
+			GRZKqvosouRTv8qT1kD626EQ4jCOQQ5UrKipN2ZT0yc=
 			</data>
 		</dict>
 		<key>Headers/mobiletraderbase-umbrella.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p6V+amiu+soVsTfqQO8e16sZq/lYWJn2F1BynZXVHxk=
+			khGMTA5Pz9wvnR0WwgJ+I+KCvW7ZpbxMcY6eKumBYNs=
 			</data>
 		</dict>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AlQ2ELjgJclWzSeLNKpvo5Lkb+JGdRcfHUpdf2rd+B0=
+			mYBg5hl4Euaudg52/nauPyLSPz+m+qD51nCf6ATkV78=
 			</data>
 		</dict>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5bNU/Rg+3zQaJe+BzJOJoVfwY6qMYun7kF3TU1Xcogk=
+			vFIDcUIlgyROXg/t6KZcog4X5vQ0eo/mGyP8AG+IuTc=
 			</data>
 		</dict>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2OeInoLrzLPiP7QuoUViAtebOkB6xsAHhjOPuPnmnkU=
+			Hcg7t84K04cRhR6Va3fTJzOrPRkpa2+j4Hq4qmIdrvI=
 			</data>
 		</dict>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5bNU/Rg+3zQaJe+BzJOJoVfwY6qMYun7kF3TU1Xcogk=
+			vFIDcUIlgyROXg/t6KZcog4X5vQ0eo/mGyP8AG+IuTc=
 			</data>
 		</dict>
 		<key>Modules/mobiletraderbase.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mo/d2OUuBWmUKjwDBRO1/0dhHM4Iq4gK+lbs93Os/gE=
+			ctf8GOe8oWkyfrRPbfgIWRzl0PUPaFCebAXvLNcxc1c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
