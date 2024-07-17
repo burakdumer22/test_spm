@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/flutter_trading_core-Swift.h</key>
 		<data>
-		Lvj6MJHyNeOShBrAKRoD1yneYsE=
+		CK1c13Ae8313F0LRNqFv5clBO5Y=
 		</data>
 		<key>Headers/flutter_trading_core-umbrella.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gdj9feSQvZuevYwxlNE0wBvhtVM=
+		7yfg2ECoL6lvQCfgDBUTP4iSRMQ=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		QmxkfTXcX5vD7fP0VBcp99wSXpE=
+		tEB8FzT2tAvZKuEABVTE1A+RvE4=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pygiJohoruBHkRGMSdCKrNLzNIk=
+		TqMNK2WU7UGZS8zE++b2vSMM3X4=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XqFN192CrGMo1c3aGNEPywP7qBQ=
+		EGTvElDpzITM07VgxRZFe5Hv0jE=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IRWRb/4aTwHFKsAAxBmpgbNPn/Q=
+		1f3t2Oik3M/WH2Jq0zp7sRseTsU=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XqFN192CrGMo1c3aGNEPywP7qBQ=
+		EGTvElDpzITM07VgxRZFe5Hv0jE=
 		</data>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VaC3i2IHnuXfFwJgDSNW+3ZMeB8=
+		lgvwH8yR3YYpPCPUfsKi7yFFJ1s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kf5ihyG6RNrZMnh9N13U1AjYkKcnresAYUocwVo0RS8=
+			RGtP/WzN5Linyb1feKmaoeQDMBN2XO8I/6mnFBGx0aY=
 			</data>
 		</dict>
 		<key>Headers/flutter_trading_core-umbrella.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k8ZrBbS12JOf46Z4xxCgtUe0pWPP0nPdURxsVR9J7A8=
+			Ytm4jZyIyg8bgODzC5qg1LvWD+snbeQHpVOOu4PAn3Y=
 			</data>
 		</dict>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pJAHAyMC1mErSPBVxITm3wqdQVDJrgglWsSjKxBl0Mo=
+			n5iuZjiRL1P1mBGobl9okMmyhdjXM/P9HF421fT6ioY=
 			</data>
 		</dict>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3yk4HOhX0PSWNEuRMUTTYjGvGNX09Rbt4i2xv6nj8g=
+			867qq7sEUzcr56nAJSynC8hQWOxda30/UIZWvFs0QpM=
 			</data>
 		</dict>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVRJKQuU3n0N30ZS3Hw6NdbiUDZRt947PbDr9tD9pRE=
+			gPn5GtH7Hsef0KliPoiODR+xcs/nA1KhxKhHYTwkZmY=
 			</data>
 		</dict>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3yk4HOhX0PSWNEuRMUTTYjGvGNX09Rbt4i2xv6nj8g=
+			867qq7sEUzcr56nAJSynC8hQWOxda30/UIZWvFs0QpM=
 			</data>
 		</dict>
 		<key>Modules/flutter_trading_core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j27dWIxSuVACcPeFCiaMtT/hwoRAkqMb0rcWhzdLn8M=
+			euEb4Qb7/K0SVR60iISPGU97j4zk01iJLrEwtaqYalA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

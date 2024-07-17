@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/bilaloz/Desktop/oyak/trading_integration/poca/build/ios/framework/Release/iphoneos/Release-iphoneos/px_calculations/px_calculations.framework/px_calculations'
+binary-path:     '/Users/oyakyatirim/oyak_flutter/trading_integration/poca/build/ios/framework/Release/iphoneos/Release-iphoneos/px_calculations/px_calculations.framework/px_calculations'
 relocations:
   - { offsetInCU: 0x33, offset: 0x3C6C, size: 0x8, addend: 0x0, symName: _px_calculationsVersionString, symObjAddr: 0x0, symBinAddr: 0x4308, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x3CA0, size: 0x8, addend: 0x0, symName: _px_calculationsVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4338, symSize: 0x0 }

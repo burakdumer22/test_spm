@@ -1,18 +1,18 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/bilaloz/Desktop/oyak/trading_integration/poca/build/ios/framework/Release/iphoneos/Release-iphoneos/JNKeychain/JNKeychain.framework/JNKeychain'
+binary-path:     '/Users/oyakyatirim/oyak_flutter/trading_integration/poca/build/ios/framework/Release/iphoneos/Release-iphoneos/JNKeychain/JNKeychain.framework/JNKeychain'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5314A, size: 0x8, addend: 0x0, symName: _JNKeychainVersionString, symObjAddr: 0x0, symBinAddr: 0x4AF8, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5317F, size: 0x8, addend: 0x0, symName: _JNKeychainVersionNumber, symObjAddr: 0x28, symBinAddr: 0x4B20, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x531BC, size: 0x8, addend: 0x0, symName: '+[JNKeychain getKeychainQuery:forAccessGroup:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x174 }
-  - { offsetInCU: 0x6F, offset: 0x53204, size: 0x8, addend: 0x0, symName: '+[JNKeychain getBundleSeedIdentifier]', symObjAddr: 0x4D4, symBinAddr: 0x44D4, symSize: 0x218 }
-  - { offsetInCU: 0x99, offset: 0x5322E, size: 0x8, addend: 0x0, symName: _getBundleSeedIdentifier.bundleSeedIdentifier, symObjAddr: 0x3508, symBinAddr: 0x8538, symSize: 0x0 }
-  - { offsetInCU: 0x1B9, offset: 0x5334E, size: 0x8, addend: 0x0, symName: '+[JNKeychain getKeychainQuery:forAccessGroup:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x174 }
-  - { offsetInCU: 0x220, offset: 0x533B5, size: 0x8, addend: 0x0, symName: '+[JNKeychain getFullAppleIdentifier:]', symObjAddr: 0x174, symBinAddr: 0x4174, symSize: 0xA4 }
-  - { offsetInCU: 0x277, offset: 0x5340C, size: 0x8, addend: 0x0, symName: '+[JNKeychain saveValue:forKey:forAccessGroup:]', symObjAddr: 0x218, symBinAddr: 0x4218, symSize: 0xF8 }
-  - { offsetInCU: 0x339, offset: 0x534CE, size: 0x8, addend: 0x0, symName: '+[JNKeychain saveValue:forKey:]', symObjAddr: 0x310, symBinAddr: 0x4310, symSize: 0x8 }
-  - { offsetInCU: 0x38A, offset: 0x5351F, size: 0x8, addend: 0x0, symName: '+[JNKeychain deleteValueForKey:forAccessGroup:]', symObjAddr: 0x318, symBinAddr: 0x4318, symSize: 0x40 }
-  - { offsetInCU: 0x422, offset: 0x535B7, size: 0x8, addend: 0x0, symName: '+[JNKeychain deleteValueForKey:]', symObjAddr: 0x358, symBinAddr: 0x4358, symSize: 0x8 }
-  - { offsetInCU: 0x465, offset: 0x535FA, size: 0x8, addend: 0x0, symName: '+[JNKeychain loadValueForKey:forAccessGroup:]', symObjAddr: 0x360, symBinAddr: 0x4360, symSize: 0x16C }
-  - { offsetInCU: 0x559, offset: 0x536EE, size: 0x8, addend: 0x0, symName: '+[JNKeychain loadValueForKey:]', symObjAddr: 0x4CC, symBinAddr: 0x44CC, symSize: 0x8 }
+  - { offsetInCU: 0x34, offset: 0x53A0C, size: 0x8, addend: 0x0, symName: _JNKeychainVersionString, symObjAddr: 0x0, symBinAddr: 0x4AF8, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53A41, size: 0x8, addend: 0x0, symName: _JNKeychainVersionNumber, symObjAddr: 0x28, symBinAddr: 0x4B20, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x53A7E, size: 0x8, addend: 0x0, symName: '+[JNKeychain getKeychainQuery:forAccessGroup:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x174 }
+  - { offsetInCU: 0x6F, offset: 0x53AC6, size: 0x8, addend: 0x0, symName: '+[JNKeychain getBundleSeedIdentifier]', symObjAddr: 0x4D4, symBinAddr: 0x44D4, symSize: 0x218 }
+  - { offsetInCU: 0x99, offset: 0x53AF0, size: 0x8, addend: 0x0, symName: _getBundleSeedIdentifier.bundleSeedIdentifier, symObjAddr: 0x3510, symBinAddr: 0x8538, symSize: 0x0 }
+  - { offsetInCU: 0x1B9, offset: 0x53C10, size: 0x8, addend: 0x0, symName: '+[JNKeychain getKeychainQuery:forAccessGroup:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x174 }
+  - { offsetInCU: 0x220, offset: 0x53C77, size: 0x8, addend: 0x0, symName: '+[JNKeychain getFullAppleIdentifier:]', symObjAddr: 0x174, symBinAddr: 0x4174, symSize: 0xA4 }
+  - { offsetInCU: 0x277, offset: 0x53CCE, size: 0x8, addend: 0x0, symName: '+[JNKeychain saveValue:forKey:forAccessGroup:]', symObjAddr: 0x218, symBinAddr: 0x4218, symSize: 0xF8 }
+  - { offsetInCU: 0x339, offset: 0x53D90, size: 0x8, addend: 0x0, symName: '+[JNKeychain saveValue:forKey:]', symObjAddr: 0x310, symBinAddr: 0x4310, symSize: 0x8 }
+  - { offsetInCU: 0x38A, offset: 0x53DE1, size: 0x8, addend: 0x0, symName: '+[JNKeychain deleteValueForKey:forAccessGroup:]', symObjAddr: 0x318, symBinAddr: 0x4318, symSize: 0x40 }
+  - { offsetInCU: 0x422, offset: 0x53E79, size: 0x8, addend: 0x0, symName: '+[JNKeychain deleteValueForKey:]', symObjAddr: 0x358, symBinAddr: 0x4358, symSize: 0x8 }
+  - { offsetInCU: 0x465, offset: 0x53EBC, size: 0x8, addend: 0x0, symName: '+[JNKeychain loadValueForKey:forAccessGroup:]', symObjAddr: 0x360, symBinAddr: 0x4360, symSize: 0x16C }
+  - { offsetInCU: 0x559, offset: 0x53FB0, size: 0x8, addend: 0x0, symName: '+[JNKeychain loadValueForKey:]', symObjAddr: 0x4CC, symBinAddr: 0x44CC, symSize: 0x8 }
 ...

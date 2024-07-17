@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Reachability-Swift.h</key>
 		<data>
-		WGUXxaYBSA5UQbe3IiFukNV0GuM=
+		2fBKFQDZtXOwBHw0YtgrGWsK5Iw=
 		</data>
 		<key>Headers/ReachabilitySwift-umbrella.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Zra9bFYs3P8HrxQEHJpBL4QlDTw=
+		iPjYMmVEOBkO/tdaSzWYHe5K2X0=
 		</data>
 		<key>Modules/Reachability.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		iAVi2SPe5fXaXkH4GXDYy9XiShw=
+		3muURAdEkIpds6HAmK5BbryvgDY=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kVXE2LH7O4p1igR0lynewFAzeys=
+		a2DC40RNXf6LTRGI0EDBmed0umg=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1VBf1dNS9DU1PeiFKPvkpBO3hHk=
+		qy6nC+oIZ2iVKWNSTfbGzCiCNTk=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		z9YB6SqmHE++cJPdXf1An2/TeMM=
+		uWiaSc4lo5ZRHx3XJYaXyWR+kl8=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1VBf1dNS9DU1PeiFKPvkpBO3hHk=
+		qy6nC+oIZ2iVKWNSTfbGzCiCNTk=
 		</data>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qg90ETNQqITCidqUJwLpmG6vjuI=
+		Q1Sn5aEHTWf/+J45E8SkK0b4f98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ReachabilitySwift.bundle/Info.plist</key>
 		<data>
-		5VmSa7e3VbgZA5xbno2pgJIpl+Y=
+		ZABnETlBF4fF7/DweUDDlN0tDUY=
 		</data>
 		<key>ReachabilitySwift.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i8SyXyNLFRiyM5ESyFMnJsnXbAn/dLNc9rHyoLY3Hxk=
+			/gOMzG5ug2KkCrmNXhS68Ld2QJYjisRIcXIqmL32imw=
 			</data>
 		</dict>
 		<key>Headers/ReachabilitySwift-umbrella.h</key>
@@ -73,42 +73,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lhaVoCLBv94UAyx6Jmt6Zolzw/MUC8ElFLt3mP0Yw74=
+			eqqrd5SpEOGS68g72/wHOHZ7SPi3gOJV79uN29TnAVk=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XN1LK5ZGYvBPn0unyrLrHOEkwFh5kNxYHNO4FYt9pNg=
+			nNI0ra5PE42/hgByLFUGlhcvKfq/mFAM261Jxu1cyfs=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gELIaGE/Gszwr/KXw38uCttIBMGFpAJltyoZRVtww0w=
+			eqgRKWkxjqgoZrABt5HzbQ7yXLztdLQw4k16Td6JhJs=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7wTzvj8rlPYsLI7E2L3YCnoARPyD/n732no1baQESeU=
+			+V6BHw0ctvk0kFlx6+VkO9j85GbRqDK7+dfABQLpVd0=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gELIaGE/Gszwr/KXw38uCttIBMGFpAJltyoZRVtww0w=
+			eqgRKWkxjqgoZrABt5HzbQ7yXLztdLQw4k16Td6JhJs=
 			</data>
 		</dict>
 		<key>Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b5Jyn76xiZEADVGehrXc020TjriDZco7bSpOXantKwA=
+			hgTqifcT7HUbLcxS+RW4eHkVzzL20+nwrudb87IwqEU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3naFSll9rFvVsueR3G3s2kZymjnl2I8GrJu0rjwR22o=
+			QnNTpL9ixSfWgSqAE+J4Ot67zsQFF0tw+dIXtrNP+5k=
 			</data>
 		</dict>
 		<key>ReachabilitySwift.bundle/PrivacyInfo.xcprivacy</key>

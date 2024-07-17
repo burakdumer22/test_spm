@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SCLAlertView-Swift.h</key>
 		<data>
-		ekjjDMBhwur190UjB7vGe4Jye+c=
+		5xF1z6nour8ETQ2FQhTpjM1Ny/A=
 		</data>
 		<key>Headers/SCLAlertView-umbrella.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		23qonbZGeuBdzp2azmZ5+anfD58=
+		OhavcyS267UaLwZvxcHuiAh8p0A=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		aU0gqA7OU7dzUYwYPr9RKGdhaRc=
+		e0AON0nnFaE9bCwW+cOD35JwU7Y=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Aly6mmIqaxsL22csXI33MI3WJrk=
+		zoOtIE6ILwXXJhxiUrdpJB+eIq8=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Kpvf6CnbUnWJWLZJpgGjuMGY9jo=
+		2J2CyEGCSNrKqeFn5E9ZFxtvUvk=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XI9jfaX5Y/Iy9TMB+R0LwXuiazA=
+		h/wzCUCI3qpQtNAiRHOTaDtiZeU=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Kpvf6CnbUnWJWLZJpgGjuMGY9jo=
+		2J2CyEGCSNrKqeFn5E9ZFxtvUvk=
 		</data>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fCcmnVYuUJ1ytzX59lr8Z6N8/bk=
+		KQAqL32vrKqYaUpgDPLSrHvPHrg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ekjjDMBhwur190UjB7vGe4Jye+c=
+			5xF1z6nour8ETQ2FQhTpjM1Ny/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			FXuwxZ8+3Sd0n1kMXnClBm19cuJll+lvAhfqpd0m0qU=
+			1sTCQlPJPQdj2Gbn/ql2vhhiVqd56wFcRXkcLbKnm1g=
 			</data>
 		</dict>
 		<key>Headers/SCLAlertView-umbrella.h</key>
@@ -73,66 +73,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aU0gqA7OU7dzUYwYPr9RKGdhaRc=
+			e0AON0nnFaE9bCwW+cOD35JwU7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			GXNis1KfPXCLa0P9rMaqVtWW3xKK13CXH0fzQ6CoNyw=
+			76IHef5ig0+oNCmsu3ks8FBa3GfRopD7ls9WDW1DwUs=
 			</data>
 		</dict>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Aly6mmIqaxsL22csXI33MI3WJrk=
+			zoOtIE6ILwXXJhxiUrdpJB+eIq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			z12ovY5n9LAYQ5c1/k11yS3XolbysGPuKL3pmZYlHxo=
+			2WnA7b7onWQROjBQyYF+QFSxZRX1bBvVMnWNrOPDXJU=
 			</data>
 		</dict>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kpvf6CnbUnWJWLZJpgGjuMGY9jo=
+			2J2CyEGCSNrKqeFn5E9ZFxtvUvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwPpOiDTvaRDC57LSr0Jz4Di8x+Yp3GhPUovcIYiLlM=
+			Us8FHSBWfGOl8ZtsRKxOUFDPQcAnwvtMUMryYdKAbEY=
 			</data>
 		</dict>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XI9jfaX5Y/Iy9TMB+R0LwXuiazA=
+			h/wzCUCI3qpQtNAiRHOTaDtiZeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			O6UWNOPCTWKnOgv5ZCOjK++NHK4DXZy6T7KCw8KRTCQ=
+			ytiGImizNA5qG9dhE0Dogac0Vel0H8URYFzgM9bmyzU=
 			</data>
 		</dict>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kpvf6CnbUnWJWLZJpgGjuMGY9jo=
+			2J2CyEGCSNrKqeFn5E9ZFxtvUvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwPpOiDTvaRDC57LSr0Jz4Di8x+Yp3GhPUovcIYiLlM=
+			Us8FHSBWfGOl8ZtsRKxOUFDPQcAnwvtMUMryYdKAbEY=
 			</data>
 		</dict>
 		<key>Modules/SCLAlertView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fCcmnVYuUJ1ytzX59lr8Z6N8/bk=
+			KQAqL32vrKqYaUpgDPLSrHvPHrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RW3W7PuA5544tkfP+Arn2genzmuyk43vXiQviIfZ2ts=
+			lc/d+SrwyEAUKFX8Qn2WkvkaJu+SmX2zVD1QGwC49Rc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

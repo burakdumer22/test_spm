@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FLALocalAuthPlugin_Test.h</key>
 		<data>
-		lsZXTRYk5cZhwX0QVdvdSCCcn3s=
+		hD6Q0QZQ0PY0T0RsHyGeFwaNzo8=
 		</data>
 		<key>Headers/local_auth_darwin-umbrella.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jdv5rrv3BLwz0vRNM7LdAvnvrFM=
+		ke19fGx/CA0eJqRlbk5uOouoeLg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>local_auth_darwin_privacy.bundle/Info.plist</key>
 		<data>
-		5FA+0ZXKAiiSN/JmalI6Bx8qk3g=
+		dH3oeEI4ljFsvxuzORRBxksPgKw=
 		</data>
 		<key>local_auth_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			57KWjDH5p2yfEholFbwmIfEdRuKble5sxdGtnHYRjEY=
+			qCg2qOUQNstnrDttOdkJyNv3E3SHKn5ssLdfCby3oAQ=
 			</data>
 		</dict>
 		<key>Headers/local_auth_darwin-umbrella.h</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jBRZcgMzo9Q4F20aZSjcr1BouVdd/qT82YFeLW193fA=
+			q4zGePtPdLgNqrys4XPiM78QDcuCwJDmH/YgWhA8yQA=
 			</data>
 		</dict>
 		<key>local_auth_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>

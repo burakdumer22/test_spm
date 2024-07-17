@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -201,20 +201,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/whitelabel_trader\/base\/ios\/Classes\/BasePlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 6,
-      "value": "\"base\""
-    },
-    {
-      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/whitelabel_trader\/base\/ios\/Classes\/BasePlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 6,
-      "value": "\"iOS \""
-    }
-  ]
+  "ConstValues": []
 }

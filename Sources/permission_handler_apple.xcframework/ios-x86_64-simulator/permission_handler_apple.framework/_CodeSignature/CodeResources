@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/LocationPermissionStrategy.h</key>
 		<data>
-		4HZBgjY+jnz+Kef7iwJteHsOWA8=
+		RtG86R5U2hwMCzLq3p3NVbrfoks=
 		</data>
 		<key>Headers/MediaLibraryPermissionStrategy.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/PermissionHandlerEnums.h</key>
 		<data>
-		Zk+h1C8RKll80Wp3k5TEdY45wjk=
+		yAOI48l4eK4//hXRSZCF0yLsmvw=
 		</data>
 		<key>Headers/PermissionHandlerPlugin.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Headers/PermissionManager.h</key>
 		<data>
-		G4OvECvMo3LuS67YcSCDxvDGi4s=
+		EuUOjj/EqclSo9tiKV8sNxT2/as=
 		</data>
 		<key>Headers/PermissionStrategy.h</key>
 		<data>
-		WIUX3JCm9FUEJMoS1xdJTAxa/ik=
+		KbVsI6fDAfXQ47ZdSLPmSdCKXeI=
 		</data>
 		<key>Headers/PhonePermissionStrategy.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L2FNqepoW4lKdQBJdYNaQ7aHlX4=
+		/mf/g+ljfzcpZ9WbGXWWMqCYM6M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,11 +210,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4HZBgjY+jnz+Kef7iwJteHsOWA8=
+			RtG86R5U2hwMCzLq3p3NVbrfoks=
 			</data>
 			<key>hash2</key>
 			<data>
-			myNRYAK+ykYvBjMj53oJ1wIJRR4xOUP7TFQEwJZmHPc=
+			k4DVIf0wVTvgSD1xGJO/2TqRNz2g4GAWfxjAPZYa+GE=
 			</data>
 		</dict>
 		<key>Headers/MediaLibraryPermissionStrategy.h</key>
@@ -243,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zk+h1C8RKll80Wp3k5TEdY45wjk=
+			yAOI48l4eK4//hXRSZCF0yLsmvw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vqt68tV7QoCIjCQ1ZnsclVd0Ia2kuMlpN0onYS+9vWg=
+			70GYxr1To+xOJ3MQemttV2lUtudr3Xp95ZwDnIZyfOg=
 			</data>
 		</dict>
 		<key>Headers/PermissionHandlerPlugin.h</key>
@@ -265,22 +265,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G4OvECvMo3LuS67YcSCDxvDGi4s=
+			EuUOjj/EqclSo9tiKV8sNxT2/as=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJg3Mo/e8dtO2wQh1bVRI8kGaM3vhOVfY1KrAzJOmdA=
+			p/q2OEW/cNBecBAGmWFPQvxZDHjTH+1xanjiQNM7nho=
 			</data>
 		</dict>
 		<key>Headers/PermissionStrategy.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WIUX3JCm9FUEJMoS1xdJTAxa/ik=
+			KbVsI6fDAfXQ47ZdSLPmSdCKXeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QZiNFqZAQ8mgm5sA8WnvJpAJ+xmTd6DhdG+T34t2oXg=
+			/E5wGBz+JGamPWt3Uj0MNJHYGAB787Q7+FotUfFvcbQ=
 			</data>
 		</dict>
 		<key>Headers/PhonePermissionStrategy.h</key>

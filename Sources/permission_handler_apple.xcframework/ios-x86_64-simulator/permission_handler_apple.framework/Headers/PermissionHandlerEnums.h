@@ -117,7 +117,7 @@
 #endif
 
 // ios: PermissionGroupCalendarFullAccess
-// Info.plist: [NSCalendarsFullAccessUsageDescription]
+// Info.plist: [NSCalendarFullAccessUsageDescription]
 // dart: PermissionGroup.calendarFullAccess
 #ifndef PERMISSION_EVENTS_FULL_ACCESS
     #define PERMISSION_EVENTS_FULL_ACCESS 0

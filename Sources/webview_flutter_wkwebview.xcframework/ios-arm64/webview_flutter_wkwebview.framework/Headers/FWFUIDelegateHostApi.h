@@ -12,9 +12,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// Flutter api implementation for WKUIDelegate.
-///
-/// Handles making callbacks to Dart for a WKUIDelegate.
+/**
+ * Flutter api implementation for WKUIDelegate.
+ *
+ * Handles making callbacks to Dart for a WKUIDelegate.
+ */
 @interface FWFUIDelegateFlutterApiImpl : FWFWKUIDelegateFlutterApi
 @property(readonly, nonatomic)
     FWFWebViewConfigurationFlutterApiImpl *webViewConfigurationFlutterApi;
@@ -23,7 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
                         instanceManager:(FWFInstanceManager *)instanceManager;
 @end
 
-/// Implementation of WKUIDelegate for FWFUIDelegateHostApiImpl.
+/**
+ * Implementation of WKUIDelegate for FWFUIDelegateHostApiImpl.
+ */
 @interface FWFUIDelegate : FWFObject <WKUIDelegate>
 @property(readonly, nonnull, nonatomic) FWFUIDelegateFlutterApiImpl *UIDelegateAPI;
 
@@ -31,9 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
                         instanceManager:(FWFInstanceManager *)instanceManager;
 @end
 
-/// Host api implementation for WKUIDelegate.
-///
-/// Handles creating WKUIDelegate that intercommunicate with a paired Dart object.
+/**
+ * Host api implementation for WKUIDelegate.
+ *
+ * Handles creating WKUIDelegate that intercommunicate with a paired Dart object.
+ */
 @interface FWFUIDelegateHostApiImpl : NSObject <FWFWKUIDelegateHostApi>
 - (instancetype)initWithBinaryMessenger:(id<FlutterBinaryMessenger>)binaryMessenger
                         instanceManager:(FWFInstanceManager *)instanceManager;

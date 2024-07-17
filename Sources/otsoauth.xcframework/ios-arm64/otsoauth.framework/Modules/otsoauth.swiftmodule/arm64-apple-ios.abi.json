@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -201,27 +201,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/Libraries\/otsoauth\/ios\/Classes\/OtsoauthPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 201,
-      "length": 10,
-      "value": "\"otsoauth\""
-    },
-    {
-      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/Libraries\/otsoauth\/ios\/Classes\/OtsoauthPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 20,
-      "value": "\"getPlatformVersion\""
-    },
-    {
-      "filePath": "\/Users\/bilaloz\/Desktop\/oyak\/Libraries\/otsoauth\/ios\/Classes\/OtsoauthPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 6,
-      "value": "\"iOS \""
-    }
-  ]
+  "ConstValues": []
 }

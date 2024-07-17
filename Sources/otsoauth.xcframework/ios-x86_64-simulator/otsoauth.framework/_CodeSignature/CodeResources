@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/otsoauth-Swift.h</key>
 		<data>
-		ZhCUuMT8URcWr+C1oT8Xq/RBsjA=
+		gw1vfd4VbuSDsFyJ6yvR+RXsAiA=
 		</data>
 		<key>Headers/otsoauth-umbrella.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DoldhuUadiFY/e7TTDflwbjKrLo=
+		AkIS7P1sWCBlJJDd7rIvRLYSwio=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Modules/otsoauth.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jqfnh4fUmpZ07F6AmkuxB6SemHI=
+		6mozFAb+JRmLzmd9kjwms8jeBns=
 		</data>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4RIv//nf0jIjJLbcmMPGqHB8Mfs=
+		5MS/zlXPeVPc7aS4GcnbDQsOqmI=
 		</data>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		y5jEEdRoQ6f7hv/jMAW0SVxFqrM=
+		DOWwIjlr4WWNKWM5QgYQkBRb8hs=
 		</data>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yg7p62mivfyDQn13BlEdPpKkK5Y=
+		N3fVDDumsvoKu5Ejl9OnuwLXYME=
 		</data>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y5jEEdRoQ6f7hv/jMAW0SVxFqrM=
+		DOWwIjlr4WWNKWM5QgYQkBRb8hs=
 		</data>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cUyN5zfE8hqlMPcltH8RKRFiobM=
+		eEm0E2R0TXfV5s9JA46Vmdlt40U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rd8rYcOXNN8w4wsAw0dSazzTJNONEcAXJCtaV3YPJpg=
+			h4Rbqlv68s4tAgeQ+rkKy8LM1Nh4deg6ycxQOaGgxoE=
 			</data>
 		</dict>
 		<key>Headers/otsoauth-umbrella.h</key>
@@ -72,42 +72,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0jOaxi92UvenWcAiVFxUBTtt8OBjrtM1AEmBk8DXJ18=
+			mD2AhuZXK0gGi8/DhcdGoNnccA5xiYR8cJDF144e/ms=
 			</data>
 		</dict>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xG3R9+GksQ1LU5kCl6AxM9wXXTZx8Mjs8+N7LtFBAjE=
+			A1UmqGLuuv0hHQpT75BDK5y1UFDDQsSjHSxsdZbYppw=
 			</data>
 		</dict>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfpTvQB0IkR9e++zc8sW6ygwOB7M7kSqaeiUTSx/JTg=
+			etIVFnMu2vGjqGALBAip7+2ZYpnD6MrgWGsmXRwH+MU=
 			</data>
 		</dict>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YqiUWhJ8cfmRxNP6sqFaD5EoB6K4iE7hhSsh2hNut/s=
+			q38AiTASrRicXHcA1ZKR2N9nbsxpx7jhX4zI2D8IMSg=
 			</data>
 		</dict>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfpTvQB0IkR9e++zc8sW6ygwOB7M7kSqaeiUTSx/JTg=
+			etIVFnMu2vGjqGALBAip7+2ZYpnD6MrgWGsmXRwH+MU=
 			</data>
 		</dict>
 		<key>Modules/otsoauth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWrzn/VFgLKab9LzdGZssh77UGGRzZR18eSI91rBH3Y=
+			Wi6n8dxDy2BL8LvfV6bIQ0e29aKPN3V/prOw4whF9/8=
 			</data>
 		</dict>
 	</dict>

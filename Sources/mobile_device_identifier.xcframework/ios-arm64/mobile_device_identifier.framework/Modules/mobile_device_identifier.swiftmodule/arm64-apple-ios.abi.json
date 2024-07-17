@@ -43,7 +43,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -208,27 +208,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/mobile_device_identifier-0.0.2\/ios\/Classes\/SwiftMobileDeviceIdentifierPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 26,
-      "value": "\"mobile_device_identifier\""
-    },
-    {
-      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/mobile_device_identifier-0.0.2\/ios\/Classes\/SwiftMobileDeviceIdentifierPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 553,
-      "length": 13,
-      "value": "\"getDeviceId\""
-    },
-    {
-      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/mobile_device_identifier-0.0.2\/ios\/Classes\/SwiftMobileDeviceIdentifierPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 586,
-      "length": 52,
-      "value": "\"com.alfanthariq.mobile_device_identifier\/device_id\""
-    }
-  ]
+  "ConstValues": []
 }
