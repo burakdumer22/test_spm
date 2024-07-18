@@ -1,0 +1,7 @@
+
+module permission_handler_apple {
+    header "permission_handler_apple.h"
+    export *
+    link framework "permission_handler_apple"
+}
+

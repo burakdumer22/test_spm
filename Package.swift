@@ -28,7 +28,7 @@ let package = Package(
                 "flutter_secure_storage",
                 "flutter_trading_core",
                 "Flutter",
-                .target(name: "FlutterPluginRegistrant"),
+                "FlutterPluginRegistrant",
                 "image_picker_ios",
                 "JGProgressHUD",
                 "JitsiMeetSDK",
@@ -39,7 +39,7 @@ let package = Package(
                 "mobiletraderbase",
                 "otsoauth",
                 "path_provider_foundation",
-                .target(name: "permission_handler_apple"),
+                "permission_handler_apple",
                 "px_calculations",
                 "px_error_management",
                 "px_form_genarator",
@@ -62,6 +62,25 @@ let package = Package(
             ],
             cSettings: [
                 .headerSearchPath("Frameworks/**"),
+                .define("SPM", to: "1")
+            ]
+        ),
+        .target(
+            name: "FlutterPluginRegistrant",
+            path: "Sources/FlutterPluginRegistrant",
+            publicHeadersPath: ".",
+            cSettings: [
+                .headerSearchPath("../../Frameworks/**"),
+                .define("SPM", to: "1")
+            ]
+        ),
+        .target(
+            name: "permission_handler_apple",
+            path: "Sources/permission_handler_apple",
+            publicHeadersPath: ".",
+            cSettings: [
+                .headerSearchPath("../../Frameworks/**"),
+                .define("SPM", to: "1")
             ]
         ),
         .binaryTarget(
@@ -108,10 +127,10 @@ let package = Package(
             name: "Flutter",
             path: "Sources/Flutter.xcframework"
         ),
-        .binaryTarget(
-            name: "FlutterPluginRegistrant",
-            path: "Sources/FlutterPluginRegistrant.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "FlutterPluginRegistrant",
+//            path: "Sources/FlutterPluginRegistrant.xcframework"
+//        ),
         .binaryTarget(
             name: "image_picker_ios",
             path: "Sources/image_picker_ios.xcframework"
@@ -152,10 +171,10 @@ let package = Package(
             name: "path_provider_foundation",
             path: "Sources/path_provider_foundation.xcframework"
         ),
-        .binaryTarget(
-            name: "permission_handler_apple",
-            path: "Sources/permission_handler_apple.xcframework"
-        ),
+//        .binaryTarget(
+//            name: "permission_handler_apple",
+//            path: "Sources/permission_handler_apple.xcframework"
+//        ),
         .binaryTarget(
             name: "px_calculations",
             path: "Sources/px_calculations.xcframework"
