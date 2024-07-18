@@ -65,7 +65,7 @@ let package = Package(
         ),
         .target(
             name: "FlutterPluginRegistrant",
-            path: "Sources/FlutterPluginRegistrant",
+            path: "Sources/FlutterPluginRegistrant.xcframework",
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("../../Frameworks/**"),
@@ -74,7 +74,7 @@ let package = Package(
         ),
         .target(
             name: "permission_handler_apple",
-            path: "Sources/permission_handler_apple",
+            path: "Sources/permission_handler_apple.xcframework",
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("../../Frameworks/**"),
