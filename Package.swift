@@ -1,4 +1,5 @@
 // swift-tools-version:5.3
+//Prod-Debug 1.0.25
 import PackageDescription
 
 let package = Package(
