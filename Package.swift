@@ -56,8 +56,6 @@ let package = Package(
             ],
             path: "Sources",
             exclude: [
-                "FlutterPluginRegistrant.xcframework",
-                "permission_handler_apple.xcframework",
                 "Supporting Files/Info.plist",
             ],
             cSettings: [
