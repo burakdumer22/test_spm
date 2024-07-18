@@ -10,6 +10,9 @@
 
 #import <Flutter/Flutter.h>
 
+// Add import for the generated plugin registrant
+#import "GeneratedPluginRegistrant.h"
+
 @interface FlutterPluginRegistrant : NSObject
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
@@ -17,4 +20,5 @@
 @end
 
 #endif /* FlutterPluginRegistrant_h */
+
 
