@@ -1,7 +1,0 @@
-
-module FlutterPluginRegistrant {
-    header "FlutterPluginRegistrant.h"
-    header "GeneratedPluginRegistrant.h"
-    export *
-    link framework "FlutterPluginRegistrant"
-}
