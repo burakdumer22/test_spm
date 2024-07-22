@@ -1,0 +1,732 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "light_weight_picker"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "light_weight_picker"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "light_weight_picker"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LightWeightPickerPlugin",
+        "printedName": "LightWeightPickerPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+            "moduleName": "light_weight_picker",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectFiles",
+            "printedName": "selectFiles(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19light_weight_picker23LightWeightPickerPluginC11selectFiles6resultyyypSgc_tF",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC11selectFiles6resultyyypSgc_tF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPicker",
+            "printedName": "documentPicker(_:didPickDocumentsAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin(im)documentPicker:didPickDocumentsAtURLs:",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC08documentF0_18didPickDocumentsAtySo010UIDocumentF14ViewControllerC_Say10Foundation3URLVGtF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "objc_name": "documentPicker:didPickDocumentsAtURLs:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentPickerWasCancelled",
+            "printedName": "documentPickerWasCancelled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIDocumentPickerViewController",
+                "printedName": "UIKit.UIDocumentPickerViewController",
+                "usr": "c:objc(cs)UIDocumentPickerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin(im)documentPickerWasCancelled:",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC08documentF12WasCancelledyySo010UIDocumentF14ViewControllerCF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "objc_name": "documentPickerWasCancelled:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "utTypeSupportedTypes",
+            "printedName": "utTypeSupportedTypes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvp",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvp",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvg",
+                "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvg",
+                "moduleName": "light_weight_picker",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvs",
+                "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvs",
+                "moduleName": "light_weight_picker",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvM",
+                "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC20utTypeSupportedTypesSayypGvM",
+                "moduleName": "light_weight_picker",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getSupportedTypesForUtTypes",
+            "printedName": "getSupportedTypesForUtTypes(list:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSArray",
+                "printedName": "Foundation.NSArray",
+                "usr": "c:objc(cs)NSArray"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19light_weight_picker23LightWeightPickerPluginC022getSupportedTypesForUtJ04listySo7NSArrayC_tF",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC022getSupportedTypesForUtJ04listySo7NSArrayC_tF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Custom",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allUTITypes",
+            "printedName": "allUTITypes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UniformTypeIdentifiers.UTType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTType",
+                    "printedName": "UniformTypeIdentifiers.UTType",
+                    "usr": "s:22UniformTypeIdentifiers6UTTypeV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19light_weight_picker23LightWeightPickerPluginC11allUTITypesSay22UniformTypeIdentifiers6UTTypeVGyF",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC11allUTITypesSay22UniformTypeIdentifiers6UTTypeVGyF",
+            "moduleName": "light_weight_picker",
+            "isOpen": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Custom",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LightWeightPickerPlugin",
+                "printedName": "light_weight_picker.LightWeightPickerPlugin",
+                "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin(im)init",
+            "mangledName": "$s19light_weight_picker23LightWeightPickerPluginCACycfc",
+            "moduleName": "light_weight_picker",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@light_weight_picker@objc(cs)LightWeightPickerPlugin",
+        "mangledName": "$s19light_weight_picker23LightWeightPickerPluginC",
+        "moduleName": "light_weight_picker",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PickerClass",
+        "printedName": "PickerClass",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pickerResult",
+            "printedName": "pickerResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19light_weight_picker11PickerClassC0C6ResultyypSgcSgvpZ",
+            "mangledName": "$s19light_weight_picker11PickerClassC0C6ResultyypSgcSgvpZ",
+            "moduleName": "light_weight_picker",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker11PickerClassC0C6ResultyypSgcSgvgZ",
+                "mangledName": "$s19light_weight_picker11PickerClassC0C6ResultyypSgcSgvgZ",
+                "moduleName": "light_weight_picker",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker11PickerClassC0C6ResultyypSgcSgvsZ",
+                "mangledName": "$s19light_weight_picker11PickerClassC0C6ResultyypSgcSgvsZ",
+                "moduleName": "light_weight_picker",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19light_weight_picker11PickerClassC0C6ResultyypSgcSgvMZ",
+                "mangledName": "$s19light_weight_picker11PickerClassC0C6ResultyypSgcSgvMZ",
+                "moduleName": "light_weight_picker",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickerClass",
+                "printedName": "light_weight_picker.PickerClass",
+                "usr": "s:19light_weight_picker11PickerClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19light_weight_picker11PickerClassCACycfc",
+            "mangledName": "$s19light_weight_picker11PickerClassCACycfc",
+            "moduleName": "light_weight_picker",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19light_weight_picker11PickerClassC",
+        "mangledName": "$s19light_weight_picker11PickerClassC",
+        "moduleName": "light_weight_picker",
+        "isOpen": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bilaloz\/.pub-cache\/hosted\/pub.dev\/light_weight_picker-0.0.1\/ios\/Classes\/LightWeightPickerPlugin.swift",
+      "kind": "Array",
+      "offset": 3114,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

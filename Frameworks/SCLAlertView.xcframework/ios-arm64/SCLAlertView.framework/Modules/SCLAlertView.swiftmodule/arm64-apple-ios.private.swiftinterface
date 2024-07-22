@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 effective-4.1.50 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name SCLAlertView
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import SCLAlertView
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum SCLAlertViewStyle {
+  case success, error, notice, warning, info, edit, wait, question
+  public var defaultColorInt: Swift.UInt {
+    get
+  }
+  public static func == (a: SCLAlertView.SCLAlertViewStyle, b: SCLAlertView.SCLAlertViewStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SCLAnimationStyle {
+  case noAnimation, topToBottom, bottomToTop, leftToRight, rightToLeft
+  public static func == (a: SCLAlertView.SCLAnimationStyle, b: SCLAlertView.SCLAnimationStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SCLActionType {
+  case none, selector, closure
+  public static func == (a: SCLAlertView.SCLActionType, b: SCLAlertView.SCLActionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SCLAlertButtonLayout {
+  case horizontal, vertical
+  public static func == (a: SCLAlertView.SCLAlertButtonLayout, b: SCLAlertView.SCLAlertButtonLayout) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SCLButton : UIKit.UIButton {
+  public struct ShowTimeoutConfiguration {
+    public init(prefix: Swift.String = "", suffix: Swift.String = "")
+  }
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+open class SCLAlertViewResponder {
+  public init(alertview: SCLAlertView.SCLAlertView)
+  open func setTitle(_ title: Swift.String)
+  open func setSubTitle(_ subTitle: Swift.String)
+  open func close()
+  open func setDismissBlock(_ dismissBlock: @escaping SCLAlertView.DismissBlock)
+  @objc deinit
+}
+public typealias DismissBlock = () -> Swift.Void
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SCLAlertView : UIKit.UIViewController {
+  public struct SCLAppearance {
+    public init(kDefaultShadowOpacity: CoreFoundation.CGFloat = 0.7, kCircleTopPosition: CoreFoundation.CGFloat = 0.0, kCircleBackgroundTopPosition: CoreFoundation.CGFloat = 6.0, kCircleHeight: CoreFoundation.CGFloat = 56.0, kCircleIconHeight: CoreFoundation.CGFloat = 20.0, kTitleTop: CoreFoundation.CGFloat = 30.0, kTitleHeight: CoreFoundation.CGFloat = 25.0, kWindowWidth: CoreFoundation.CGFloat = 240.0, kWindowHeight: CoreFoundation.CGFloat = 178.0, kTextHeight: CoreFoundation.CGFloat = 90.0, kTextFieldHeight: CoreFoundation.CGFloat = 45.0, kTextViewdHeight: CoreFoundation.CGFloat = 80.0, kButtonHeight: CoreFoundation.CGFloat = 45.0, kTitleFont: UIKit.UIFont = UIFont.systemFont(ofSize: 20), kTitleMinimumScaleFactor: CoreFoundation.CGFloat = 1.0, kTextFont: UIKit.UIFont = UIFont.systemFont(ofSize: 14), kButtonFont: UIKit.UIFont = UIFont.boldSystemFont(ofSize: 14), showCloseButton: Swift.Bool = true, showCircularIcon: Swift.Bool = true, shouldAutoDismiss: Swift.Bool = true, contentViewCornerRadius: CoreFoundation.CGFloat = 5.0, fieldCornerRadius: CoreFoundation.CGFloat = 3.0, buttonCornerRadius: CoreFoundation.CGFloat = 3.0, hideWhenBackgroundViewIsTapped: Swift.Bool = false, circleBackgroundColor: UIKit.UIColor = UIColor.white, contentViewColor: UIKit.UIColor = UIColorFromRGB(0xFFFFFF), contentViewBorderColor: UIKit.UIColor = UIColorFromRGB(0xCCCCCC), titleColor: UIKit.UIColor = UIColorFromRGB(0x4D4D4D), dynamicAnimatorActive: Swift.Bool = false, disableTapGesture: Swift.Bool = false, buttonsLayout: SCLAlertView.SCLAlertButtonLayout = .vertical, activityIndicatorStyle: UIKit.UIActivityIndicatorViewStyle = .white)
+  }
+  public struct SCLTimeoutConfiguration {
+    public typealias ActionType = () -> Swift.Void
+    public init(timeoutValue: Foundation.TimeInterval, timeoutAction: @escaping SCLAlertView.SCLAlertView.SCLTimeoutConfiguration.ActionType)
+  }
+  @_Concurrency.MainActor(unsafe) open var iconTintColor: UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) open var customSubview: UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) public init(appearance: SCLAlertView.SCLAlertView.SCLAppearance)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) open func addTextField(_ title: Swift.String? = nil) -> UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) open func addTextView() -> UIKit.UITextView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func addButton(_ title: Swift.String, backgroundColor: UIKit.UIColor? = nil, textColor: UIKit.UIColor? = nil, showTimeout: SCLAlertView.SCLButton.ShowTimeoutConfiguration? = nil, action: @escaping () -> Swift.Void) -> SCLAlertView.SCLButton
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func addButton(_ title: Swift.String, backgroundColor: UIKit.UIColor? = nil, textColor: UIKit.UIColor? = nil, showTimeout: SCLAlertView.SCLButton.ShowTimeoutConfiguration? = nil, target: Swift.AnyObject, selector: ObjectiveC.Selector) -> SCLAlertView.SCLButton
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showCustom(_ title: Swift.String, subTitle: Swift.String, color: UIKit.UIColor, icon: UIKit.UIImage, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.success.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showSuccess(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.success.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showError(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.error.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showNotice(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.notice.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showWarning(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.warning.defaultColorInt, colorTextButton: Swift.UInt = 0x000000, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showInfo(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.info.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showWait(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt? = SCLAlertViewStyle.wait.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showEdit(_ title: Swift.String, subTitle: Swift.String, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt = SCLAlertViewStyle.edit.defaultColorInt, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showTitle(_ title: Swift.String, subTitle: Swift.String, style: SCLAlertView.SCLAlertViewStyle, closeButtonTitle: Swift.String? = nil, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration? = nil, colorStyle: Swift.UInt? = 0x000000, colorTextButton: Swift.UInt = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) open func showTitle(_ title: Swift.String, subTitle: Swift.String, timeout: SCLAlertView.SCLAlertView.SCLTimeoutConfiguration?, completeText: Swift.String?, style: SCLAlertView.SCLAlertViewStyle, colorStyle: Swift.UInt? = 0x000000, colorTextButton: Swift.UInt? = 0xFFFFFF, circleIconImage: UIKit.UIImage? = nil, animationStyle: SCLAlertView.SCLAnimationStyle = .topToBottom) -> SCLAlertView.SCLAlertViewResponder
+  @objc @_Concurrency.MainActor(unsafe) open func updateShowTimeout()
+  @objc @_Concurrency.MainActor(unsafe) open func hideView()
+  @objc @_Concurrency.MainActor(unsafe) open func hideViewTimeout()
+  @_Concurrency.MainActor(unsafe) open func isShowing() -> Swift.Bool
+  @objc deinit
+}
+public func UIColorFromRGB(_ rgbValue: Swift.UInt) -> UIKit.UIColor
+extension SCLAlertView.SCLAlertViewStyle : Swift.Equatable {}
+extension SCLAlertView.SCLAlertViewStyle : Swift.Hashable {}
+extension SCLAlertView.SCLAnimationStyle : Swift.Equatable {}
+extension SCLAlertView.SCLAnimationStyle : Swift.Hashable {}
+extension SCLAlertView.SCLActionType : Swift.Equatable {}
+extension SCLAlertView.SCLActionType : Swift.Hashable {}
+extension SCLAlertView.SCLAlertButtonLayout : Swift.Equatable {}
+extension SCLAlertView.SCLAlertButtonLayout : Swift.Hashable {}

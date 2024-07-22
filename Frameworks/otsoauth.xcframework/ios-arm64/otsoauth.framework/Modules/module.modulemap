@@ -1,0 +1,11 @@
+framework module otsoauth {
+  umbrella header "otsoauth-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module otsoauth.Swift {
+  header "otsoauth-Swift.h"
+  requires objc
+}

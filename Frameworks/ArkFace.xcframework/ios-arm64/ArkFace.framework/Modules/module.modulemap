@@ -1,0 +1,11 @@
+framework module ArkFace {
+  umbrella header "ArkFace.h"
+
+  export *
+  module * { export * }
+}
+
+module ArkFace.Swift {
+  header "ArkFace-Swift.h"
+  requires objc
+}

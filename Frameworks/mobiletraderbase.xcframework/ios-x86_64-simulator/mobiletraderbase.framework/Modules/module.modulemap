@@ -1,0 +1,11 @@
+framework module mobiletraderbase {
+  umbrella header "mobiletraderbase-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module mobiletraderbase.Swift {
+  header "mobiletraderbase-Swift.h"
+  requires objc
+}

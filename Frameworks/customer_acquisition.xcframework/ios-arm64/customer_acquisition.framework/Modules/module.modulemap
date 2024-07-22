@@ -1,0 +1,6 @@
+framework module customer_acquisition {
+  umbrella header "customer_acquisition-umbrella.h"
+
+  export *
+  module * { export * }
+}

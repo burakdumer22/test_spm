@@ -1,0 +1,20 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name light_weight_picker
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Flutter
+import Swift
+import UIKit
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import light_weight_picker
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LightWeightPickerPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, UIKit.UIDocumentPickerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @_Concurrency.MainActor(unsafe) @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @_Concurrency.MainActor(unsafe) @objc public func documentPicker(_ controller: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
+  @_Concurrency.MainActor(unsafe) @objc public func documentPickerWasCancelled(_ controller: UIKit.UIDocumentPickerViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+}

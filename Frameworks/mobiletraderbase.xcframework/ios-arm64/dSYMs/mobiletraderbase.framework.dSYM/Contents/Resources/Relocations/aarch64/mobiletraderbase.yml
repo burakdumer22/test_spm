@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bilaloz/Desktop/oyak/trading_integration/poca/build/ios/framework/Release/iphoneos/Release-iphoneos/mobiletraderbase/mobiletraderbase.framework/mobiletraderbase'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57378, size: 0x8, addend: 0x0, symName: _mobiletraderbaseVersionString, symObjAddr: 0x0, symBinAddr: 0xA7D0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x573AD, size: 0x8, addend: 0x0, symName: _mobiletraderbaseVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA800, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x5740E, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC8register4withySo07FlutterC9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x4 }
+  - { offsetInCU: 0x5F, offset: 0x57422, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x8004, symSize: 0x20 }
+  - { offsetInCU: 0x82, offset: 0x57445, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC8register4withySo07FlutterC9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x8024, symSize: 0x30 }
+  - { offsetInCU: 0xB4, offset: 0x57477, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x8054, symSize: 0xE4 }
+  - { offsetInCU: 0x117, offset: 0x574DA, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x138, symBinAddr: 0x8138, symSize: 0x74 }
+  - { offsetInCU: 0x149, offset: 0x5750C, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginCACycfc', symObjAddr: 0x1AC, symBinAddr: 0x81AC, symSize: 0x30 }
+  - { offsetInCU: 0x184, offset: 0x57547, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginCACycfcTo', symObjAddr: 0x1DC, symBinAddr: 0x81DC, symSize: 0x3C }
+  - { offsetInCU: 0x1BF, offset: 0x57582, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginCfD', symObjAddr: 0x218, symBinAddr: 0x8218, symSize: 0x30 }
+  - { offsetInCU: 0x1FD, offset: 0x575C0, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC8register4withySo07FlutterC9Registrar_p_tFZTf4nd_n', symObjAddr: 0x248, symBinAddr: 0x8248, symSize: 0xC8 }
+  - { offsetInCU: 0x290, offset: 0x57653, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypK7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ddg_n', symObjAddr: 0x3D8, symBinAddr: 0x83D8, symSize: 0x184 }
+  - { offsetInCU: 0x2D0, offset: 0x57693, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x310, symBinAddr: 0x8310, symSize: 0x40 }
+  - { offsetInCU: 0x2E4, offset: 0x576A7, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x350, symBinAddr: 0x8350, symSize: 0x40 }
+  - { offsetInCU: 0x2F8, offset: 0x576BB, size: 0x8, addend: 0x0, symName: '_$s16mobiletraderbase10BasePluginCMa', symObjAddr: 0x390, symBinAddr: 0x8390, symSize: 0x20 }
+  - { offsetInCU: 0x317, offset: 0x576DA, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x55C, symBinAddr: 0x855C, symSize: 0x48 }
+  - { offsetInCU: 0x32B, offset: 0x576EE, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x5A4, symBinAddr: 0x85A4, symSize: 0x24 }
+  - { offsetInCU: 0x33F, offset: 0x57702, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x5C8, symBinAddr: 0x85C8, symSize: 0x20 }
+...

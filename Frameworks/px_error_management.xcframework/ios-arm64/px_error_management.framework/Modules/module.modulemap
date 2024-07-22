@@ -1,0 +1,6 @@
+framework module px_error_management {
+  umbrella header "px_error_management-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,370 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ArkTCKK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+@_exported import ArkTCKK
+import CoreImage
+import CoreML
+import Foundation
+import ImageIO
+import Swift
+import UIKit
+import Vision
+import VisionKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension CoreGraphics.CGImage {
+  public func preprocessImage() -> CoreGraphics.CGImage?
+  public func resizeCutOutBack() -> CoreGraphics.CGImage
+}
+extension UIKit.UIImage {
+  public class func ArkGifLoader(_ name: Swift.String) -> UIKit.UIImage?
+}
+@objc public protocol ArkTckkUiMrzReaderDelegate {
+  @objc func onMrzReadTimeout()
+  @objc func onMrzReadFailed(statusCode: Swift.Int)
+  @objc func onMrzReadSuccessfully(documentSerialNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiration: Foundation.Date, mrz: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@objc @_Concurrency.MainActor(unsafe) public class ArkTckkUiMrzReader : ArkTCKK.ArkTckkBackCamera {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any ArkTCKK.ArkTckkUiMrzReaderDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var mrzSampleCount: Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) public func getTckn() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getSurname() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getGivenNames() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getGender() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getMrzString(id: Swift.String, dateOfBirth: Foundation.Date, expiryDate: Foundation.Date) -> Swift.String
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkUiMrzReader : ArkTCKK.ArkTckkBackCameraDelegate {
+  @_Concurrency.MainActor(unsafe) public func onCameraError(statusCode: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onTextRecognitionFailed()
+  @_Concurrency.MainActor(unsafe) public func onTextRecognizedSuccess(lines: [Swift.String], frame: CoreGraphics.CGImage)
+  @_Concurrency.MainActor(unsafe) public func onTimeOut()
+}
+public protocol ArkTckkFrontCameraDelegate {
+  func onTimeOut()
+  func onTextRecognitionFailed()
+  func onTextRecognizedSuccess(lines: [Swift.String], frame: CoreGraphics.CGImage)
+  func onCameraError(statusCode: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@_Concurrency.MainActor(unsafe) public class ArkTckkFrontCamera : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var timeoutDurationInMillisecond: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var cameraPreset: AVFoundation.AVCaptureSession.Preset
+  @objc @_Concurrency.MainActor(unsafe) public var cameraPerformanceMode: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var svgOverlayImage: UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public var tckn: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var jpegQuality: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var clearImg: UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public var isBusy: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var checkAspectRatio: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var tckkBackImg: Swift.String
+  @_Concurrency.MainActor(unsafe) public var lastDoneOverlayDrawTime: Foundation.TimeInterval?
+  @_Concurrency.MainActor(unsafe) public var baseDelegate: (any ArkTCKK.ArkTckkFrontCameraDelegate)?
+  @_Concurrency.MainActor(unsafe) public var cameraPresetCorner: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var isPlay: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var msgPlace: Foundation.URL?
+  @_Concurrency.MainActor(unsafe) public var svgOverlay: UIKit.UIImageView {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var highlightOverlay: UIKit.UIImageView {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func addSubviews()
+  @objc @_Concurrency.MainActor(unsafe) public func initialize()
+  @objc @_Concurrency.MainActor(unsafe) public func setScanAnimationAspectRatioEnable(value: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func setShowScanAnimation(value: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func resizePreviewLayer()
+  @objc @_Concurrency.MainActor(unsafe) public func start()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func setupSvgOverlayView()
+  @objc @_Concurrency.MainActor(unsafe) public func getTckkBackImg() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func startPlayer()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkFrontCamera : ArkTCKK.ArkTckkFrontOcrHelperDelegate {
+  @_Concurrency.MainActor(unsafe) public func onMrzResult(image: UIKit.UIImage)
+  @_Concurrency.MainActor(unsafe) public func onMrzDetectionContinue()
+  @_Concurrency.MainActor(unsafe) public func onMrzDetectionSuccess(lines: [Swift.String], rects: [CoreFoundation.CGRect], croppedImages: [CoreGraphics.CGImage], frame: CoreGraphics.CGImage)
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkFrontCamera : ArkTCKK.ArkTckkFrontCameraHelperDelegate {
+  @_Concurrency.MainActor(unsafe) public func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) public func onError(statusCode: Swift.Int)
+}
+public protocol ArkTckkBackOcrHelperDelegate {
+  func onMrzDetectionContinue()
+  func onMrzDetectionSuccess(lines: [Swift.String], rects: [CoreFoundation.CGRect], croppedImages: [CoreGraphics.CGImage], frame: CoreGraphics.CGImage)
+}
+public protocol ArkTckkBackOcrHelperProtocol {
+  func detectText(newFrame: CoreGraphics.CGImage, isScreenPercentCorrect: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class ArkTckkBackOcrHelper : ObjectiveC.NSObject, ArkTCKK.ArkTckkBackOcrHelperProtocol {
+  public var delegate: (any ArkTCKK.ArkTckkBackOcrHelperDelegate)?
+  public var checkIfBlockHasCorrectAspectRatio: Swift.Bool
+  public func detectText(newFrame: CoreGraphics.CGImage, isScreenPercentCorrect: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ArkTckkFrontCameraHelperError : ObjectiveC.NSObject {
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkTckkFrontCameraHelperDelegate {
+  func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  func onError(statusCode: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers public class ThresholdFilter : CoreImage.CIFilter {
+  @objc override dynamic public var outputImage: CoreImage.CIImage! {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class MrzHelper : ObjectiveC.NSObject {
+  @objc public static func getMRZKey(id: Swift.String, dateOfBirth: Swift.String, expiryDate: Swift.String) -> Swift.String
+  @objc public static func mrzLines(from recognizedText: Swift.String) -> [Swift.String]
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class MrzParser {
+  public init(ocrCorrection: Swift.Bool = false)
+  public func parse(mrzLines: [Swift.String]) -> ArkTCKK.MRZResult?
+  public func parse(mrzString: Swift.String) -> ArkTCKK.MRZResult?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LiveAuthLog : ObjectiveC.NSObject {
+  public static func logInfo(_ msg: Swift.String?, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  public static func logError(_ msg: Swift.String?, _ error: any Swift.Error, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
+@objc public protocol ArkTckkUiFrontSideReaderDelegate {
+  @objc func onFrontScanTimedOut()
+  @objc func onFrontScanFailed(statusCode: Swift.Int)
+  @objc func onFrontScanReadSuccessfully(image: UIKit.UIImage)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@objc @_Concurrency.MainActor(unsafe) public class ArkTckkUiFrontReader : ArkTCKK.ArkTckkFrontCamera {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any ArkTCKK.ArkTckkUiFrontSideReaderDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var numberPhrasesToFind: Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkUiFrontReader : ArkTCKK.ArkTckkFrontCameraDelegate {
+  @_Concurrency.MainActor(unsafe) public func onCameraError(statusCode: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func onTimeOut()
+  @_Concurrency.MainActor(unsafe) public func onTextRecognitionFailed()
+  @_Concurrency.MainActor(unsafe) public func onTextRecognizedSuccess(lines: [Swift.String], frame: CoreGraphics.CGImage)
+}
+@objc @_inheritsConvenienceInitializers public class SmoothThreshold : CoreImage.CIFilter {
+  @objc override dynamic public var outputImage: CoreImage.CIImage! {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension Swift.String {
+  public func calcCheckSum() -> Swift.Int
+}
+extension Foundation.Date {
+  public func isPersonOfAge() -> Swift.Bool
+}
+public struct MRZResult {
+  public let documentType: Swift.String
+  public let countryCode: Swift.String
+  public let surnames: Swift.String
+  public let givenNames: Swift.String
+  public let documentNumber: Swift.String
+  public let nationalityCountryCode: Swift.String
+  public let birthdate: Foundation.Date?
+  public let sex: Swift.String?
+  public let expiryDate: Foundation.Date?
+  public let personalNumber: Swift.String
+  public let personalNumber2: Swift.String?
+  public let isDocumentNumberValid: Swift.Bool
+  public let isBirthdateValid: Swift.Bool
+  public let isExpiryDateValid: Swift.Bool
+  public let isPersonalNumberValid: Swift.Bool?
+  public let allCheckDigitsValid: Swift.Bool
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkUiFrontReader {
+  @_Concurrency.MainActor(unsafe) public func isIDCardPresent(_ mrzLines: [Swift.String]) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func extractTckn(_ mrzLines: [Swift.String]) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) public func isValidTckn(_ tckn: Swift.String) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc public class FrontScanErrorCodes : ObjectiveC.NSObject {
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEAUTRE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FrontScanErrorCodesHelper : ObjectiveC.NSObject {
+  @objc public static func toString(val: Swift.Int) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkTckkBackCameraDelegate {
+  func onTimeOut()
+  func onTextRecognitionFailed()
+  func onTextRecognizedSuccess(lines: [Swift.String], frame: CoreGraphics.CGImage)
+  func onCameraError(statusCode: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@_Concurrency.MainActor(unsafe) public class ArkTckkBackCamera : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var timeoutDurationInMillisecond: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var cameraPreset: AVFoundation.AVCaptureSession.Preset
+  @objc @_Concurrency.MainActor(unsafe) public var cameraPerformanceMode: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var svgOverlayImage: UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public var tckn: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var surname: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var givenNames: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var gender: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public var jpegQuality: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var clearImg: UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public var isBusy: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var checkAspectRatio: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var tckkBackImg: Swift.String
+  @_Concurrency.MainActor(unsafe) public var lastDoneOverlayDrawTime: Foundation.TimeInterval?
+  @_Concurrency.MainActor(unsafe) public var baseDelegate: (any ArkTCKK.ArkTckkBackCameraDelegate)?
+  @_Concurrency.MainActor(unsafe) public var cameraPresetCorner: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var isPlay: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var msgPlace: Foundation.URL?
+  @_Concurrency.MainActor(unsafe) public var svgOverlay: UIKit.UIImageView {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var highlightOverlay: UIKit.UIImageView {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func addSubviews()
+  @objc @_Concurrency.MainActor(unsafe) public func initialize()
+  @objc @_Concurrency.MainActor(unsafe) public func setScanAnimationAspectRatioEnable(value: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func setShowScanAnimation(value: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func resizePreviewLayer()
+  @objc @_Concurrency.MainActor(unsafe) public func start()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func setupSvgOverlayView()
+  @objc @_Concurrency.MainActor(unsafe) public func getTckkBackImg() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func startPlayer()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkBackCamera : ArkTCKK.ArkTckkBackOcrHelperDelegate {
+  @_Concurrency.MainActor(unsafe) public func onMrzDetectionContinue()
+  @_Concurrency.MainActor(unsafe) public func onMrzDetectionSuccess(lines: [Swift.String], rects: [CoreFoundation.CGRect], croppedImages: [CoreGraphics.CGImage], frame: CoreGraphics.CGImage)
+}
+@available(iOS 13.0, *)
+extension ArkTCKK.ArkTckkBackCamera : ArkTCKK.ArkTckkBackCameraHelperDelegate {
+  @_Concurrency.MainActor(unsafe) public func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) public func onError(statusCode: Swift.Int)
+}
+@_inheritsConvenienceInitializers @objc public class ArkTckkBackCameraHelperError : ObjectiveC.NSObject {
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkTckkBackCameraHelperDelegate {
+  func onNewFrame(newFrame: CoreGraphics.CGImage, sampleBuffer: CoreMedia.CMSampleBuffer, frameSize: CoreFoundation.CGSize)
+  func onError(statusCode: Swift.Int)
+}
+extension UIKit.UIImage {
+  public func processImage(mrzWidth: Swift.Int = 200) -> UIKit.UIImage?
+  public func processPixelsInImage() -> UIKit.UIImage?
+}
+@_inheritsConvenienceInitializers @objc public class MrzErrorCodes : ObjectiveC.NSObject {
+  @objc public static let MRZ_PARSE_FAILED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_DENIED: Swift.Int
+  @objc public static let CAMERA_PERMISSION_PERMANENTLY_DENIED: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_CAMERA_FEATURE: Swift.Int
+  @objc public static let DEVICE_INIT_FAILED: Swift.Int
+  @objc public static let UNKOWN: Swift.Int
+  @objc public static let USER_IS_UNDER_AGE: Swift.Int
+  @objc public static let ERROR_OS_NOT_SUPPORTED: Swift.Int
+  @objc public static let DEVICE_MIN_FOCUSING_ERROR: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class MrzErrorCodesHelper : ObjectiveC.NSObject {
+  @objc public static func toString(val: Swift.Int) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol ArkTckkFrontOcrHelperDelegate {
+  func onMrzDetectionContinue()
+  func onMrzDetectionSuccess(lines: [Swift.String], rects: [CoreFoundation.CGRect], croppedImages: [CoreGraphics.CGImage], frame: CoreGraphics.CGImage)
+  func onMrzResult(image: UIKit.UIImage)
+}
+public protocol ArkTckkFrontOcrHelperProtocol {
+  func detectText(newFrame: CoreGraphics.CGImage, isScreenPercentCorrect: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class ArkTckkFrontOcrHelper : ObjectiveC.NSObject, ArkTCKK.ArkTckkFrontOcrHelperProtocol {
+  public var delegate: (any ArkTCKK.ArkTckkFrontOcrHelperDelegate)?
+  public var checkIfBlockHasCorrectAspectRatio: Swift.Bool
+  public func detectText(newFrame: CoreGraphics.CGImage, isScreenPercentCorrect: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.String {
+  public func fixNameLineNumbers() -> Swift.String
+  public func fixForAllowedCharacters() -> Swift.String
+  public func removeSpaces() -> Swift.String
+  public func fixNonNumricChars() -> Swift.String
+  public func fixNonAllowedChars() -> Swift.String
+  public func fixLastLineByPadding() -> Swift.String
+  public func fixLastLineByPaddingforPassport() -> Swift.String
+  public func fixFirstLineFirstChar() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class MrzData {
+  public var mrzLine: Swift.String {
+    get
+  }
+  public var mrzLines: [Swift.String] {
+    get
+  }
+  @objc deinit
+}
+public class MrzExtractor {
+  public init(lines: [Swift.String])
+  public func extract() -> ArkTCKK.MrzData?
+  @objc deinit
+}

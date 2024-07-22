@@ -1,0 +1,760 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ArkNFC
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import ArkNFC
+import CommonCrypto
+import CoreNFC
+import CryptoKit
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@available(iOS 13, *)
+public protocol ArkTckkReaderDelegate : AnyObject {
+  func updateTagReadSessionProgress(item: ArkNFC.NFCViewDisplayMessage, dgProgress: Swift.Int, dgTotal: Swift.Int) -> Swift.String?
+  func done(model: ArkNFC.NfcTckkModel?, error: ArkNFC.ArkError?, statusCode: Swift.Int)
+}
+@_inheritsConvenienceInitializers @available(iOS 13, *)
+@objc public class ArkTckkReader : ObjectiveC.NSObject {
+  public var activeAuthChallenge: Swift.String {
+    get
+  }
+  public var activeAuthSignature: Swift.String {
+    get
+  }
+  public var delegate: (any ArkNFC.ArkTckkReaderDelegate)?
+  @objc override dynamic public init()
+  public func stop(dontRaiseError: Swift.Bool = false)
+  public func readTckkNfc(mrzKey: Swift.String, tags: [ArkNFC.DgId] = [], skipSecureElements: Swift.Bool = true, challange: [Swift.UInt8] = [])
+  @objc deinit
+}
+@available(iOS 13, *)
+extension ArkNFC.ArkTckkReader : CoreNFC.NFCTagReaderSessionDelegate {
+  public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
+@available(iOS 13, *)
+public struct ApduResponse {
+  public var data: [Swift.UInt8]
+  public var sw1: Swift.UInt8
+  public var sw2: Swift.UInt8
+  public init(data: [Swift.UInt8], sw1: Swift.UInt8, sw2: Swift.UInt8)
+}
+@available(iOS 13, *)
+public class NfcTckkModel {
+  public var documentType: Swift.String {
+    get
+  }
+  public var documentSubType: Swift.String {
+    get
+  }
+  public var personalNumber: Swift.String {
+    get
+  }
+  public var documentNumber: Swift.String {
+    get
+  }
+  public var issuingAuthority: Swift.String {
+    get
+  }
+  public var documentExpiryDate: Swift.String {
+    get
+  }
+  public var dateOfBirth: Swift.String {
+    get
+  }
+  public var gender: Swift.String {
+    get
+  }
+  public var nationality: Swift.String {
+    get
+  }
+  public var activeAuthChallenge: Swift.String {
+    get
+  }
+  public var activeAuthSignature: Swift.String {
+    get
+  }
+  public var lastName: Swift.String {
+    get
+  }
+  public var firstName: Swift.String {
+    get
+  }
+  public var passportMRZ: Swift.String {
+    get
+  }
+  public func setActiveAuthChallenge(val: Swift.String)
+  public func setActiveAuthSignature(val: Swift.String)
+  public var LDSVersion: Swift.String {
+    get
+  }
+  public var dataGroupsPresent: [Swift.String] {
+    get
+  }
+  public var dataGroupsAvailable: [ArkNFC.DgId] {
+    get
+  }
+  public var dataGroupsRead: [ArkNFC.DgId : ArkNFC.DataGroup] {
+    get
+  }
+  public var dataGroupHashes: [ArkNFC.DgId : ArkNFC.DataGroupHash] {
+    get
+  }
+  public var passportCorrectlySigned: Swift.Bool {
+    get
+  }
+  public var documentSigningCertificateVerified: Swift.Bool {
+    get
+  }
+  public var passportDataNotTampered: Swift.Bool {
+    get
+  }
+  public var activeAuthenticationPassed: Swift.Bool {
+    get
+  }
+  public var verificationErrors: [any Swift.Error] {
+    get
+  }
+  public var passportImage: UIKit.UIImage? {
+    get
+  }
+  public var signatureImage: UIKit.UIImage? {
+    get
+  }
+  public var placeOfBirth: Swift.String? {
+    get
+  }
+  public var dateOfBirthFull: Swift.String? {
+    get
+  }
+  public var activeAuthenticationSupported: Swift.Bool {
+    get
+  }
+  public init()
+  public func addDataGroup(_ id: ArkNFC.DgId, dataGroup: ArkNFC.DataGroup)
+  public func verifyActiveAuthentication(challenge: [Swift.UInt8], signature: [Swift.UInt8])
+  public func activeAuthFailed()
+  @objc deinit
+}
+@available(iOS 13, *)
+public protocol ArkPspReaderDelegate {
+  func updatePspTagReadSessionProgress(item: ArkNFC.NFCViewDisplayMessage, dgProgress: Swift.Int, dgTotal: Swift.Int) -> Swift.String?
+  func donePsp(model: ArkNFC.NfcTckkModel?, error: ArkNFC.ArkError?, statusCode: Swift.Int)
+}
+@_inheritsConvenienceInitializers @available(iOS 13, *)
+@objc public class ArkPspReader : ObjectiveC.NSObject {
+  public var activeAuthChallenge: Swift.String {
+    get
+  }
+  public var activeAuthSignature: Swift.String {
+    get
+  }
+  public var delegate: (any ArkNFC.ArkPspReaderDelegate)?
+  @objc override dynamic public init()
+  public var mrzString: Swift.String
+  public func stop(dontRaiseError: Swift.Bool = false)
+  @objc deinit
+}
+@available(iOS 13, *)
+extension ArkNFC.ArkPspReader : CoreNFC.NFCTagReaderSessionDelegate {
+  public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
+@available(iOS 13, *)
+extension ArkNFC.ArkPspReader {
+  public func getDataGrpforPsp(base64Response: Swift.String, dgId: ArkNFC.DgId)
+}
+@available(iOS 13, *)
+public enum TckkTagError : Swift.Error {
+  case responseError(Swift.UInt8, Swift.UInt8)
+}
+@available(iOS 13, *)
+extension ArkNFC.TckkTagError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@available(iOS 13, *)
+public enum ArkError : Swift.Error {
+  case ResponseError(Swift.String, Swift.UInt8, Swift.UInt8)
+  case InvalidResponse
+  case UnexpectedError
+  case NFCNotSupported
+  case NoConnectedTag
+  case D087Malformed
+  case InvalidResponseChecksum
+  case MissingMandatoryFields
+  case CannotDecodeASN1Length
+  case InvalidASN1Value
+  case UnableToProtectAPDU
+  case UnableToUnprotectAPDU
+  case UnsupportedDataGroup
+  case DataGroupNotRead
+  case UnknownTag
+  case UnknownImageFormat
+  case NotImplemented
+  case TagNotValid
+  case ConnectionError
+  case UserCanceled
+  case InvalidMRZKey
+  case MoreThanOneTagFound
+  case InvalidHashAlgorithmSpecified
+  case UnsupportedCipherAlgorithm
+  case UnsupportedAesAlgorithm
+  case InvalidDataKeylenght
+}
+@available(iOS 13, *)
+public enum DgId : Swift.Int, Swift.CaseIterable {
+  case COM
+  case DG1
+  case DG2
+  case DG3
+  case DG4
+  case DG5
+  case DG6
+  case DG7
+  case DG8
+  case DG9
+  case DG10
+  case DG11
+  case DG12
+  case DG13
+  case DG14
+  case DG15
+  case DG16
+  case SOD
+  case Unknown
+  public func getName() -> Swift.String
+  public static func getIDFromName(name: Swift.String) -> ArkNFC.DgId
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ArkNFC.DgId]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [ArkNFC.DgId] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class TagHandler {
+  @objc deinit
+}
+@available(iOS 13.0, *)
+@objc public protocol ArkPspNfcDataReaderDelegate {
+  @objc func onDataGroupRead(dgNumber: Swift.Int, totalNumberOfDgs: Swift.Int)
+  @objc func onNfcReadTimeout()
+  @objc func onNfcReadFailed(statusCode: Swift.Int)
+  @objc func onNfcReadSuccessfully()
+}
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc @_Concurrency.MainActor(unsafe) public class ArkPspNfcDataReader : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any ArkNFC.ArkPspNfcDataReaderDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var timeoutDurationInMillisecond: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var mrzString: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public var msgPlaceCardPrompt: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingData: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingDone: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingError: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgProgressFilled: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgProgressEmpty: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func start()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func getActiveAuthChallenge() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getActiveAuthSignature() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getCompressedPhotoDataBase64(_ jpegQuality: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@available(iOS 13.0, *)
+extension ArkNFC.ArkPspNfcDataReader : ArkNFC.ArkPspReaderDelegate {
+  @_Concurrency.MainActor(unsafe) public func updatePspTagReadSessionProgress(item: ArkNFC.NFCViewDisplayMessage, dgProgress: Swift.Int, dgTotal: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) public func donePsp(model: ArkNFC.NfcTckkModel?, error: ArkNFC.ArkError?, statusCode: Swift.Int)
+}
+@available(iOS 13, *)
+public enum NFCViewDisplayMessage {
+  case requestPresentPassport
+  case authenticatingWithPassport(Swift.Int)
+  case readingDataGroupProgress(ArkNFC.DgId, Swift.Int)
+  case error(ArkNFC.ArkError)
+  case successfulRead
+}
+@available(iOS 13, *)
+extension ArkNFC.NFCViewDisplayMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum ApduSteps {
+  case start
+  case challenge
+  case externalAuth
+  case readBinary
+  case readDg
+  case done
+  public static func == (a: ArkNFC.ApduSteps, b: ArkNFC.ApduSteps) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ArkNFC.ApduSteps {
+  public func getNext() -> ArkNFC.ApduSteps
+}
+@_inheritsConvenienceInitializers @objc public class LiveAuthLog : ObjectiveC.NSObject {
+  public static func logInfo(_ msg: Swift.String?, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  public static func logError(_ msg: Swift.String?, _ error: any Swift.Error, fileName: Swift.String = #file, functionName: Swift.String = #function, lineNumber: Swift.Int = #line)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup {
+  public var datagroupType: ArkNFC.DgId
+  public var rawBase64: Swift.String {
+    get
+  }
+  public var body: [Swift.UInt8] {
+    get
+  }
+  public func hash(_ hashAlgorythm: Swift.String) -> [Swift.UInt8]
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class NotImplementedDG : ArkNFC.DataGroup {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class COM : ArkNFC.DataGroup {
+  public var version: Swift.String {
+    get
+  }
+  public var unicodeVersion: Swift.String {
+    get
+  }
+  public var dataGroupsPresent: [Swift.String] {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup1 : ArkNFC.DataGroup {
+  public var elements: [Swift.String : Swift.String] {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup2 : ArkNFC.DataGroup {
+  public var nrImages: Swift.Int {
+    get
+  }
+  public var versionNumber: Swift.Int {
+    get
+  }
+  public var lengthOfRecord: Swift.Int {
+    get
+  }
+  public var numberOfFacialImages: Swift.Int {
+    get
+  }
+  public var facialRecordDataLength: Swift.Int {
+    get
+  }
+  public var nrFeaturePoints: Swift.Int {
+    get
+  }
+  public var gender: Swift.Int {
+    get
+  }
+  public var eyeColor: Swift.Int {
+    get
+  }
+  public var hairColor: Swift.Int {
+    get
+  }
+  public var featureMask: Swift.Int {
+    get
+  }
+  public var expression: Swift.Int {
+    get
+  }
+  public var poseAngle: Swift.Int {
+    get
+  }
+  public var poseAngleUncertainty: Swift.Int {
+    get
+  }
+  public var faceImageType: Swift.Int {
+    get
+  }
+  public var imageDataType: Swift.Int {
+    get
+  }
+  public var imageWidth: Swift.Int {
+    get
+  }
+  public var imageHeight: Swift.Int {
+    get
+  }
+  public var imageColorSpace: Swift.Int {
+    get
+  }
+  public var sourceType: Swift.Int {
+    get
+  }
+  public var deviceType: Swift.Int {
+    get
+  }
+  public var quality: Swift.Int {
+    get
+  }
+  public var imageData: [Swift.UInt8] {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup7 : ArkNFC.DataGroup {
+  public var imageData: [Swift.UInt8] {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup11 : ArkNFC.DataGroup {
+  public var fullName: Swift.String? {
+    get
+  }
+  public var personalNumber: Swift.String? {
+    get
+  }
+  public var dateOfBirth: Swift.String? {
+    get
+  }
+  public var placeOfBirth: Swift.String? {
+    get
+  }
+  public var address: Swift.String? {
+    get
+  }
+  public var telephone: Swift.String? {
+    get
+  }
+  public var profession: Swift.String? {
+    get
+  }
+  public var title: Swift.String? {
+    get
+  }
+  public var personalSummary: Swift.String? {
+    get
+  }
+  public var proofOfCitizenship: Swift.String? {
+    get
+  }
+  public var tdNumbers: Swift.String? {
+    get
+  }
+  public var custodyInfo: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup12 : ArkNFC.DataGroup {
+  public var issuingAuthority: Swift.String? {
+    get
+  }
+  public var dateOfIssue: Swift.String? {
+    get
+  }
+  public var otherPersonsDetails: Swift.String? {
+    get
+  }
+  public var endorsementsOrObservations: Swift.String? {
+    get
+  }
+  public var taxOrExitRequirements: Swift.String? {
+    get
+  }
+  public var frontImage: [Swift.UInt8]? {
+    get
+  }
+  public var rearImage: [Swift.UInt8]? {
+    get
+  }
+  public var personalizationTime: Swift.String? {
+    get
+  }
+  public var personalizationDeviceSerialNr: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup14 : ArkNFC.DataGroup {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
+public class DataGroup15 : ArkNFC.DataGroup {
+  public var rsaPublicKey: Swift.OpaquePointer? {
+    get
+  }
+  public var dg15Content: [Swift.UInt8]? {
+    get
+  }
+  @objc deinit
+}
+@available(iOS 13, *)
+public enum DocTypeEnum : Swift.String {
+  case TD1
+  case TD2
+  case OTHER
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class DataGroupViewModel : Swift.Encodable {
+  public var dg1Base64: Swift.String
+  public var dg2Base64: Swift.String
+  public var dg3Base64: Swift.String
+  public var dg4Base64: Swift.String
+  public var dg5Base64: Swift.String
+  public var dg6Base64: Swift.String
+  public var dg7Base64: Swift.String
+  public var dg8Base64: Swift.String
+  public var dg9Base64: Swift.String
+  public var dg10Base64: Swift.String
+  public var dg11Base64: Swift.String
+  public var dg12Base64: Swift.String
+  public var dg13Base64: Swift.String
+  public var dg14Base64: Swift.String
+  public var dg15Base64: Swift.String
+  public var dg16Base64: Swift.String
+  public var efComBase64: Swift.String
+  public var efSodBase64: Swift.String
+  public var challangeBase64: Swift.String
+  public var activeAuthenticationResponseBase64: Swift.String
+  public var transId: Swift.String
+  public var mrzstring: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public var DataGroupPspDict: [Swift.String : Swift.String]
+public enum SecureMessagingSupportedAlgorithms {
+  case DES
+  case AES
+  public static func == (a: ArkNFC.SecureMessagingSupportedAlgorithms, b: ArkNFC.SecureMessagingSupportedAlgorithms) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 13, *)
+public class SecureMessaging {
+  public init(encryptionAlgorithm: ArkNFC.SecureMessagingSupportedAlgorithms = .DES, ksenc: [Swift.UInt8], ksmac: [Swift.UInt8], ssc: [Swift.UInt8])
+  @objc deinit
+}
+@available(iOS 13, macOS 10.15, *)
+public func AESEncrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, macOS 10.15, *)
+public func AESDecrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, macOS 10.15, *)
+public func AESECBEncrypt(key: [Swift.UInt8], message: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func tripleDESEncrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func tripleDESDecrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func DESEncrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8], options: Swift.UInt32 = 0) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func DESDecrypt(key: [Swift.UInt8], message: [Swift.UInt8], iv: [Swift.UInt8], options: Swift.UInt32 = 0) -> [Swift.UInt8]
+@available(iOS 13, macOS 10.15, *)
+public struct DataGroupHash {
+  public var id: Swift.String
+  public var sodHash: Swift.String
+  public var computedHash: Swift.String
+  public var match: Swift.Bool
+}
+@available(iOS 13, *)
+public class BacHandler {
+  public var ksenc: [Swift.UInt8]
+  public var ksmac: [Swift.UInt8]
+  public var kifd: [Swift.UInt8]
+  public init()
+  public init(tagReader: ArkNFC.TagHandler)
+  public func performBACAndGetSessionKeys(mrzKey: Swift.String, completed: @escaping (_ error: ArkNFC.ArkError?) -> ())
+  public func sessionKeys(data: [Swift.UInt8]) -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
+  @objc deinit
+}
+@available(iOS 13, *)
+extension ArkNFC.BacHandler {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func performBACAndGetSessionKeysforPsp(mrzKey: Swift.String) async throws
+  #endif
+}
+@available(iOS 13, *)
+public class SecureMessageLayer {
+  public init(ksenc: [Swift.UInt8], ksmac: [Swift.UInt8], ssc: [Swift.UInt8])
+  @objc deinit
+}
+public func binToHexRep(_ val: [Swift.UInt8]) -> Swift.String
+public func binToHexRep(_ val: Swift.UInt8) -> Swift.String
+public func binToHex(_ val: Swift.UInt8) -> Swift.Int
+public func binToHex(_ val: [Swift.UInt8]) -> Swift.UInt64
+public func binToHex(_ val: Swift.ArraySlice<Swift.UInt8>) -> Swift.UInt64
+public func hexToBin(_ val: Swift.UInt64) -> [Swift.UInt8]
+public func binToInt(_ val: Swift.ArraySlice<Swift.UInt8>) -> Swift.Int
+public func binToInt(_ val: [Swift.UInt8]) -> Swift.Int
+public func intToBin(_ data: Swift.Int, pad: Swift.Int = 2) -> [Swift.UInt8]
+public func hexRepToBin(_ val: Swift.String) -> [Swift.UInt8]
+public func xor(_ kifd: [Swift.UInt8], _ response_kicc: [Swift.UInt8]) -> [Swift.UInt8]
+public func generateRandomUInt8Array(_ size: Swift.Int) -> [Swift.UInt8]
+public func pad(_ toPad: [Swift.UInt8]) -> [Swift.UInt8]
+public func pspPad(_ toPad: [Swift.UInt8], blockSize: Swift.Int) -> [Swift.UInt8]
+public func unpad(_ tounpad: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func mac(key: [Swift.UInt8], msg: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+public func asn1Length(_ data: Swift.ArraySlice<Swift.UInt8>) throws -> (Swift.Int, Swift.Int)
+@available(iOS 13, *)
+public func asn1Length(_ data: [Swift.UInt8]) throws -> (Swift.Int, Swift.Int)
+@available(iOS 13, *)
+public func toAsn1Length(_ data: Swift.Int) throws -> [Swift.UInt8]
+public func createDate(year: Swift.Int, month: Swift.Int, day: Swift.Int) -> Foundation.Date
+public func getMRZKey(id: Swift.String, dateOfBirth: Swift.String, expiryDate: Swift.String) -> Swift.String
+extension Swift.String {
+  public func fixNameLineNumbers() -> Swift.String
+  public func fixForAllowedCharacters() -> Swift.String
+  public func removeSpaces() -> Swift.String
+  public func fixNonNumricChars() -> Swift.String
+  public func fixNonAllowedChars() -> Swift.String
+  public func fixLastLineByPadding() -> Swift.String
+  public func fixLastLineByPaddingforPassport() -> Swift.String
+  public func fixFirstLineFirstChar() -> Swift.String
+  public func fixFirstLineFirstCharforPassport() -> Swift.String
+  public func fixNonNumricCharsforPsp() -> Swift.String
+}
+@_inheritsConvenienceInitializers @objc public class NfcErrorCode : ObjectiveC.NSObject {
+  @objc public static let UNKNOWN: Swift.Int
+  @objc public static let ERROR_NFC_READ_FAILED: Swift.Int
+  @objc public static let ERROR_WRONG_PARAMETER_ENCODED_MRZ_STRING: Swift.Int
+  @objc public static let DEVICE_NOT_HAVE_NFC_FEATURE: Swift.Int
+  @objc public static let ERROR_NFC_TAG_NOT_SUPPORT_ISO_DEP: Swift.Int
+  @objc public static let ERROR_CANT_CONNECT_NFC_TAG: Swift.Int
+  @objc public static let ERROR_NFC_TAG_NOT_SUPPORTED: Swift.Int
+  @objc public static let ERROR_NFC_TAG_LOST: Swift.Int
+  @objc public static let ERROR_EXTERNAL_AUTH_FAILED: Swift.Int
+  @objc public static let ERROR_NFC_DISABLED: Swift.Int
+  @objc public static let ERROR_USER_CANCELED: Swift.Int
+  @objc public static let ERROR_MORE_THAN_ONE_TAG_FOUND: Swift.Int
+  @objc public static let ERROR_IDCARD_CAN_NOT_IDENTIFY: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class NfcErrorCodeHelper : ObjectiveC.NSObject {
+  @objc public static func toString(val: Swift.Int) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+@objc public protocol ArkTckkNfcDataReaderDelegate {
+  @objc func onDataGroupRead(dgNumber: Swift.Int, totalNumberOfDgs: Swift.Int)
+  @objc func onNfcReadTimeout()
+  @objc func onNfcReadFailed(statusCode: Swift.Int)
+  @objc func onNfcReadSuccessfully()
+}
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc @_Concurrency.MainActor(unsafe) public class ArkTckkNfcDataReader : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any ArkNFC.ArkTckkNfcDataReaderDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public var timeoutDurationInMillisecond: Swift.Int
+  @objc @_Concurrency.MainActor(unsafe) public var mrzString: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public var challange: [Swift.UInt8]
+  @objc @_Concurrency.MainActor(unsafe) public var msgPlaceCardPrompt: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingData: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingDone: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgReadingError: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgProgressFilled: Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public var msgProgressEmpty: Swift.String
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func start()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func getPhotoData() -> UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public func getCompressedPhotoDataBase64(_ jpegQuality: Swift.Int) -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getCompressedPhotoData(_ jpegQuality: Swift.Int) -> UIKit.UIImage?
+  @objc @_Concurrency.MainActor(unsafe) public func getPhotoDataBase64() -> Swift.String?
+  @available(*, message: "getNfcFullName methodunu kullanınız")
+  @objc @_Concurrency.MainActor(unsafe) public func getFullName() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getNfcTckn() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getNfcPlaceOfBirth() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getNfcGender() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getNfcFullName() -> Swift.String?
+  @available(*, message: "getNfcFullName methodunu kullanınız")
+  @objc @_Concurrency.MainActor(unsafe) public func getFirstName() -> Swift.String?
+  @available(*, message: "getNfcFullName methodunu kullanınız")
+  @objc @_Concurrency.MainActor(unsafe) public func getLastName() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getDocumentSerialNumber() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getDateOfBirth() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getDateOfBirthAsDate() -> Foundation.Date?
+  @objc @_Concurrency.MainActor(unsafe) public func getAge() -> Foundation.NSNumber?
+  @objc @_Concurrency.MainActor(unsafe) public func getDateOfExpiration() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getNationality() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) public func getDg1Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg2Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg3Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg4Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg5Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg6Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg7Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg8Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg9Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg10Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg11Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg12Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg13Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg14Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg15Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getDg16Base64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getEfSodBase64() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getEfComBase64() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func getDataGroup() -> ArkNFC.DataGroupViewModel
+  @objc @_Concurrency.MainActor(unsafe) public func getActiveAuthChallenge() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) public func getActiveAuthSignature() -> Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@available(iOS 13.0, *)
+extension ArkNFC.ArkTckkNfcDataReader : ArkNFC.ArkTckkReaderDelegate {
+  @_Concurrency.MainActor(unsafe) public func updateTagReadSessionProgress(item: ArkNFC.NFCViewDisplayMessage, dgProgress: Swift.Int, dgTotal: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) public func done(model: ArkNFC.NfcTckkModel?, error: ArkNFC.ArkError?, statusCode: Swift.Int)
+}
+public func binToHexRep(_ val: [Swift.UInt8], asArray: Swift.Bool = false) -> Swift.String
+@available(iOS 13, macOS 10.15, *)
+public func mac(algoName: ArkNFC.SecureMessagingSupportedAlgorithms, key: [Swift.UInt8], msg: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, macOS 10.15, *)
+public func desMAC(key: [Swift.UInt8], msg: [Swift.UInt8]) -> [Swift.UInt8]
+@available(iOS 13, *)
+extension ArkNFC.DgId : Swift.Equatable {}
+@available(iOS 13, *)
+extension ArkNFC.DgId : Swift.Hashable {}
+@available(iOS 13, *)
+extension ArkNFC.DgId : Swift.RawRepresentable {}
+extension ArkNFC.ApduSteps : Swift.Equatable {}
+extension ArkNFC.ApduSteps : Swift.Hashable {}
+@available(iOS 13, *)
+extension ArkNFC.DocTypeEnum : Swift.Equatable {}
+@available(iOS 13, *)
+extension ArkNFC.DocTypeEnum : Swift.Hashable {}
+@available(iOS 13, *)
+extension ArkNFC.DocTypeEnum : Swift.RawRepresentable {}
+extension ArkNFC.SecureMessagingSupportedAlgorithms : Swift.Equatable {}
+extension ArkNFC.SecureMessagingSupportedAlgorithms : Swift.Hashable {}

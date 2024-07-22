@@ -1,0 +1,11 @@
+framework module light_weight_picker {
+  umbrella header "light_weight_picker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module light_weight_picker.Swift {
+  header "light_weight_picker-Swift.h"
+  requires objc
+}
