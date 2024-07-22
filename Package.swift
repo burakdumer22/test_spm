@@ -12,6 +12,10 @@ let package = Package(
             name: "test_spm",
             targets: ["test_spm"]
         ),
+        .library(
+            name: "frameworks_test",
+            targets: ["frameworks_test"]
+        ),
     ],
     targets: [
         .target(
