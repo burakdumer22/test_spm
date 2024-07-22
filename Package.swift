@@ -104,147 +104,147 @@ let package = Package(
         ),
         .binaryTarget(
             name: "App",
-            path: "Sources/App.xcframework"
+            path: "Frameworks/App.xcframework"
         ),
         .binaryTarget(
             name: "ArkFace",
-            path: "Sources/ArkFace.xcframework"
+            path: "Frameworks/ArkFace.xcframework"
         ),
         .binaryTarget(
             name: "ArkNFC",
-            path: "Sources/ArkNFC.xcframework"
+            path: "Frameworks/ArkNFC.xcframework"
         ),
         .binaryTarget(
             name: "arksigner",
-            path: "Sources/arksigner.xcframework"
+            path: "Frameworks/arksigner.xcframework"
         ),
         .binaryTarget(
             name: "ArkTCKK",
-            path: "Sources/ArkTCKK.xcframework"
+            path: "Frameworks/ArkTCKK.xcframework"
         ),
         .binaryTarget(
             name: "connectivity_plus",
-            path: "Sources/connectivity_plus.xcframework"
+            path: "Frameworks/connectivity_plus.xcframework"
         ),
         .binaryTarget(
             name: "customer_acquisition",
-            path: "Sources/customer_acquisition.xcframework"
+            path: "Frameworks/customer_acquisition.xcframework"
         ),
         .binaryTarget(
             name: "device_info_plus",
-            path: "Sources/device_info_plus.xcframework"
+            path: "Frameworks/device_info_plus.xcframework"
         ),
         .binaryTarget(
             name: "flutter_secure_storage",
-            path: "Sources/flutter_secure_storage.xcframework"
+            path: "Frameworks/flutter_secure_storage.xcframework"
         ),
         .binaryTarget(
             name: "flutter_trading_core",
-            path: "Sources/flutter_trading_core.xcframework"
+            path: "Frameworks/flutter_trading_core.xcframework"
         ),
         .binaryTarget(
             name: "Flutter",
-            path: "Sources/Flutter.xcframework"
+            path: "Frameworks/Flutter.xcframework"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            path: "Sources/FlutterPluginRegistrant.xcframework"
+            path: "Frameworks/FlutterPluginRegistrant.xcframework"
         ),
         .binaryTarget(
             name: "image_picker_ios",
-            path: "Sources/image_picker_ios.xcframework"
+            path: "Frameworks/image_picker_ios.xcframework"
         ),
         .binaryTarget(
             name: "JGProgressHUD",
-            path: "Sources/JGProgressHUD.xcframework"
+            path: "Frameworks/JGProgressHUD.xcframework"
         ),
         .binaryTarget(
             name: "JitsiMeetSDK",
-            path: "Sources/JitsiMeetSDK.xcframework"
+            path: "Frameworks/JitsiMeetSDK.xcframework"
         ),
         .binaryTarget(
             name: "JNKeychain",
-            path: "Sources/JNKeychain.xcframework"
+            path: "Frameworks/JNKeychain.xcframework"
         ),
         .binaryTarget(
             name: "light_weight_picker",
-            path: "Sources/light_weight_picker.xcframework"
+            path: "Frameworks/light_weight_picker.xcframework"
         ),
         .binaryTarget(
             name: "local_auth_darwin",
-            path: "Sources/local_auth_darwin.xcframework"
+            path: "Frameworks/local_auth_darwin.xcframework"
         ),
         .binaryTarget(
             name: "mobile_device_identifier",
-            path: "Sources/mobile_device_identifier.xcframework"
+            path: "Frameworks/mobile_device_identifier.xcframework"
         ),
         .binaryTarget(
             name: "mobiletraderbase",
-            path: "Sources/mobiletraderbase.xcframework"
+            path: "Frameworks/mobiletraderbase.xcframework"
         ),
         .binaryTarget(
             name: "otsoauth",
-            path: "Sources/otsoauth.xcframework"
+            path: "Frameworks/otsoauth.xcframework"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
-            path: "Sources/path_provider_foundation.xcframework"
+            path: "Frameworks/path_provider_foundation.xcframework"
         ),
         .binaryTarget(
             name: "permission_handler_apple",
-            path: "Sources/permission_handler_apple.xcframework"
+            path: "Frameworks/permission_handler_apple.xcframework"
         ),
         .binaryTarget(
             name: "px_calculations",
-            path: "Sources/px_calculations.xcframework"
+            path: "Frameworks/px_calculations.xcframework"
         ),
         .binaryTarget(
             name: "px_error_management",
-            path: "Sources/px_error_management.xcframework"
+            path: "Frameworks/px_error_management.xcframework"
         ),
         .binaryTarget(
             name: "px_form_genarator",
-            path: "Sources/px_form_genarator.xcframework"
+            path: "Frameworks/px_form_genarator.xcframework"
         ),
         .binaryTarget(
             name: "px_widgets",
-            path: "Sources/px_widgets.xcframework"
+            path: "Frameworks/px_widgets.xcframework"
         ),
         .binaryTarget(
             name: "Reachability",
-            path: "Sources/Reachability.xcframework"
+            path: "Frameworks/Reachability.xcframework"
         ),
         .binaryTarget(
             name: "SCLAlertView",
-            path: "Sources/SCLAlertView.xcframework"
+            path: "Frameworks/SCLAlertView.xcframework"
         ),
         .binaryTarget(
             name: "share_plus",
-            path: "Sources/share_plus.xcframework"
+            path: "Frameworks/share_plus.xcframework"
         ),
         .binaryTarget(
             name: "shared_preferences_foundation",
-            path: "Sources/shared_preferences_foundation.xcframework"
+            path: "Frameworks/shared_preferences_foundation.xcframework"
         ),
         .binaryTarget(
             name: "syncfusion_flutter_pdfviewer",
-            path: "Sources/syncfusion_flutter_pdfviewer.xcframework"
+            path: "Frameworks/syncfusion_flutter_pdfviewer.xcframework"
         ),
         .binaryTarget(
             name: "url_launcher_ios",
-            path: "Sources/url_launcher_ios.xcframework"
+            path: "Frameworks/url_launcher_ios.xcframework"
         ),
         .binaryTarget(
             name: "wakelock",
-            path: "Sources/wakelock.xcframework"
+            path: "Frameworks/wakelock.xcframework"
         ),
         .binaryTarget(
             name: "WebRTC",
-            path: "Sources/WebRTC.xcframework"
+            path: "Frameworks/WebRTC.xcframework"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            path: "Sources/webview_flutter_wkwebview.xcframework"
+            path: "Frameworks/webview_flutter_wkwebview.xcframework"
         ),
     ]
 )
